@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D3451B2D-8883-D397-B107-5EDFEF7B5284" containerWithKeyObject="64B9CC17-37CF-9CCB-2D59-D3DD77CDF29E" localFKIndex="8D10607F-4D86-1355-3DAD-82844B11DD9D" name="Telefones_Clientes_Tipos_Telefone_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:52:08 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<referredTableLongName>Tipos_Telefone</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CD279939-1E43-3965-BC95-61786ACC1E13</referredTableID>
+<keyObject>0C1357AB-3197-45CD-BEDF-C9EB2FEACAFA</keyObject>
+<referredKeyID>0C1357AB-3197-45CD-BEDF-C9EB2FEACAFA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDTipo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

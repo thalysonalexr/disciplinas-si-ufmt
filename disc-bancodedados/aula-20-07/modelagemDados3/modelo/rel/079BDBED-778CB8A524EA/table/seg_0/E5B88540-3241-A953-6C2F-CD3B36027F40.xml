@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5B88540-3241-A953-6C2F-CD3B36027F40" schemaObject="0EA7F6AB-A288-39BE-14A4-9FC0B6E3CB15" name="VENDEDORES">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>EXERCICIOS3</sourceObjSchema>
+<sourceObjName>VENDEDORES</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDVENDEDOR" id="D902A3D9-1A09-28D9-1C31-3BDD0E934C39">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>VENDEDORES</sourceObjSchema>
+<sourceObjName>IDVENDEDOR</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMEVENDEDOR" id="6304D2FB-8F3C-98BD-89D1-1C3EF96BED8E">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>VENDEDORES</sourceObjSchema>
+<sourceObjName>NOMEVENDEDOR</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 BYTE</dataTypeSize>
+<ownDataTypeParameters>45 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32A1E8AA-CCE2-6AEA-4E30-8A3563138DAA" name="VENDEDORES_PK">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>EXERCICIOS3</sourceObjSchema>
+<sourceObjName>VENDEDORES_PK</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D902A3D9-1A09-28D9-1C31-3BDD0E934C39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F530111C-BBDE-D9F2-D815-F3907C498C2E" schemaObject="0EA7F6AB-A288-39BE-14A4-9FC0B6E3CB15" name="VENDEDORES_PK">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>EXERCICIOS3</sourceObjSchema>
+<sourceObjName>VENDEDORES_PK</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D902A3D9-1A09-28D9-1C31-3BDD0E934C39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="0EA7F6AB-A288-39BE-14A4-9FC0B6E3CB15" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="0D0CC427-555D-228A-6288-5BE260080CAD" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="40CCFFA1-1A50-32EE-B00A-061D202FE079" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="54077D15-22DA-EEA7-371D-EE788FAA6C75" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="589B1ACA-6B41-7C6B-2515-AB24FAB33C80" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="8E591410-DC17-5C19-C2D7-924DD235138C" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="DB3C82F2-1FB4-7D34-BE18-D1F16A919122" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="DD885114-660A-6DC8-32F8-28AA107B3427" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="E5B88540-3241-A953-6C2F-CD3B36027F40" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="FD511147-2126-8F36-0295-C50124BE04CE" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="03960484-2512-3607-7F7D-BD6B51D66597" name="" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="081B6513-49C4-80B7-A549-057A74B5B623" name="" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="4298B155-5952-29F0-45F5-434ADE35B821" name="" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="4E2202A6-AE11-CFC2-4410-2C377143767D" name="" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="7F75A090-6C68-7888-BCA5-40A7F5A6F052" name="" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="ABF68BD1-EBAE-9EB0-9A53-FD7AA9F897DF" name="" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="AFABB013-8886-25C3-AC5C-0AD1530C1FD3" name="" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="BD39277E-EA67-27CC-1A1D-3EA97AA1F6B6" name="" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="D7481B15-F28F-DDEC-F5BB-50EAAB73EABB" name="" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

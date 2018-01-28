@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="98EFD09E-1840-85C3-FCAD-B4256E213982" mainViewID="79445806-0EE5-7316-E69B-E5FFB5D08988">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 15:35:16 UTC</createdTime>
+<ownerDesignName>Agencia_de_Turismo</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

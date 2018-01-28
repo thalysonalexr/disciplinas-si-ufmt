@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E591410-DC17-5C19-C2D7-924DD235138C" schemaObject="0EA7F6AB-A288-39BE-14A4-9FC0B6E3CB15" name="REVENDAS">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>EXERCICIOS3</sourceObjSchema>
+<sourceObjName>REVENDAS</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDREVENDA" id="F19D873B-023C-6E46-8FC9-7123230CF417">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>REVENDAS</sourceObjSchema>
+<sourceObjName>IDREVENDA</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDCIDADE" id="49ADAE32-0D8E-4935-32EE-70A46FD62970">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>REVENDAS</sourceObjSchema>
+<sourceObjName>IDCIDADE</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03960484-2512-3607-7F7D-BD6B51D66597" referredColumn="1F2B6AA4-5DA8-B9D5-4B30-CDB83AA2FB8F"/>
+</associations>
+</Column>
+<Column name="NOMEREVENDA" id="2EDB214E-732A-71F5-BF22-552B6E37A270">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>REVENDAS</sourceObjSchema>
+<sourceObjName>NOMEREVENDA</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMEPROPRIETARIO" id="D2C814C9-727D-EAC6-F29F-289DC23A2DDA">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>REVENDAS</sourceObjSchema>
+<sourceObjName>NOMEPROPRIETARIO</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 BYTE</dataTypeSize>
+<ownDataTypeParameters>45 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E460F5F-B53C-826D-37FD-2E7DADCCB1A5" name="REVENDAS_PK">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>EXERCICIOS3</sourceObjSchema>
+<sourceObjName>REVENDAS_PK</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F19D873B-023C-6E46-8FC9-7123230CF417"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3C68DB4-BD28-AC21-4244-30799E9AE8FF" schemaObject="0EA7F6AB-A288-39BE-14A4-9FC0B6E3CB15" name="REVENDAS_PK">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>EXERCICIOS3</sourceObjSchema>
+<sourceObjName>REVENDAS_PK</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F19D873B-023C-6E46-8FC9-7123230CF417"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62D24D7A-0F7C-7B8D-F9FD-7C8D2CED185A" name="REVENDAS_CIDADES_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49ADAE32-0D8E-4935-32EE-70A46FD62970"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

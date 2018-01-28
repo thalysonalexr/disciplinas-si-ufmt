@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<metadatadoc version="2.0">
+	<object type="FKIndexAssociation" id="EA10488B-2A39-FEE2-E4EA-E54975C6CAEB" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="true" tableid="E3A84432-665C-1D0B-7079-614A0B1C2DCD" reftableid="B7DCF80C-B9D7-0907-6833-8299D858473B" references="3BF9C4EE-4CF9-EE4D-C34F-6E0ACF99A1E5" localindexid="F9FB3065-3550-6362-78D4-B793792726A8" delrule="RESTRICT" mandatory="true" transferable="true" use_default_color="false" background_color="-16777216" foreground_color="null">
+		<name>Atendimentos_Enfermeiros_FK</name>
+		<comment></comment>
+		<notes></notes>
+		<alter type="created">
+			<user>Administrador</user>
+			<timestamp>2017-07-06 20:12:28</timestamp>
+		</alter>
+		<alter type="changed">
+			<user>Administrador</user>
+			<timestamp>2017-07-06 20:12:29</timestamp>
+		</alter>
+		<properties>
+			<parameter name="design.owner" value="modelo2" />
+			<parameter name="object.existsinrepository" value="true" />
+		</properties>
+		<engineering should="true" />
+		<des_obj_version version="1.0" />
+		<documents />
+		<parties />
+		<changerequests />
+		<measurements />
+	</object>
+</metadatadoc>

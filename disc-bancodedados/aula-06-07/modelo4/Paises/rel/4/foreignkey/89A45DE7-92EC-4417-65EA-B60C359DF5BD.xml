@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<metadatadoc version="2.0">
+	<object type="FKIndexAssociation" id="89A45DE7-92EC-4417-65EA-B60C359DF5BD" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="true" tableid="2BB64B85-8686-DCE3-F2A3-37672E9E3955" reftableid="F8B37244-55B6-AC7F-2760-C45E622A8D41" references="78461F62-7ED4-82A7-BEFD-47281BA1C987" localindexid="0B8ABC94-DA06-46B9-8EF5-DD31F14E41A7" delrule="RESTRICT" mandatory="true" transferable="true" use_default_color="true" background_color="null" foreground_color="null">
+		<name>Estados_Paises_FK</name>
+		<comment></comment>
+		<notes></notes>
+		<alter type="created">
+			<user>Administrador</user>
+			<timestamp>2017-07-06 20:52:37</timestamp>
+		</alter>
+		<alter type="changed">
+			<user>Administrador</user>
+			<timestamp>2017-07-06 20:52:39</timestamp>
+		</alter>
+		<properties>
+			<parameter name="design.owner" value="Paises" />
+			<parameter name="object.existsinrepository" value="true" />
+		</properties>
+		<engineering should="true" />
+		<des_obj_version version="1.0" />
+		<documents />
+		<parties />
+		<changerequests />
+		<measurements />
+	</object>
+</metadatadoc>

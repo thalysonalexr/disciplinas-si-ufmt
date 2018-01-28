@@ -1,0 +1,2 @@
+GRANT SELECT ON administrador2.turmas TO aluno
+/

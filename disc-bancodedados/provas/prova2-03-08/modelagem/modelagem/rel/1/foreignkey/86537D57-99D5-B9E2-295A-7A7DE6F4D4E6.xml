@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<metadatadoc version="2.0">
+	<object type="FKIndexAssociation" id="86537D57-99D5-B9E2-295A-7A7DE6F4D4E6" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="true" tableid="BAC08B82-F93A-998A-A31E-D66272CA240F" reftableid="EF50B6BF-9CA8-099F-3012-571CEB6C4815" references="86CDA3CE-3FC7-C033-08C5-872622AED030" localindexid="C5DAE855-3C58-3471-1EC8-DDE60B04B52B" delrule="RESTRICT" mandatory="true" transferable="true" use_default_color="true" background_color="null" foreground_color="null">
+		<name>Matriculas_Turmas_FK</name>
+		<comment></comment>
+		<notes></notes>
+		<alter type="created">
+			<user>Administrador</user>
+			<timestamp>2017-08-03 21:27:06</timestamp>
+		</alter>
+		<alter type="changed">
+			<user>Administrador</user>
+			<timestamp>2017-08-03 21:27:08</timestamp>
+		</alter>
+		<properties>
+			<parameter name="design.owner" value="modelo" />
+			<parameter name="object.existsinrepository" value="true" />
+		</properties>
+		<engineering should="true" />
+		<des_obj_version version="1.0" />
+		<documents />
+		<parties />
+		<changerequests />
+		<measurements />
+	</object>
+</metadatadoc>

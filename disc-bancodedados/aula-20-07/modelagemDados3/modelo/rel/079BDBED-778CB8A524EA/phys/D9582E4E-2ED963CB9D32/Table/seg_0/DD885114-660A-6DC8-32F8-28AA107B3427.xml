@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="CORES" directorySegmentName="seg_0" id="DD885114-660A-6DC8-32F8-28AA107B3427">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>0EA7F6AB-A288-39BE-14A4-9FC0B6E3CB15</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>03E80E9C-8120-52D5-D4E2-B6128F5694C0</segment>
+<tableSpace>6F6442FD-CFFA-6820-BD06-A51FEF04F0BB</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="IDCOR" id="1C5E3BF1-8DA4-2BD1-40CF-1C82A5654CC1">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRICAOCOR" id="C7A65E93-CC50-5D5E-0BC3-86084B71E601">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CORES_PK" id="596946D6-C799-F2C7-511B-88E80DA548DA">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>0EA7F6AB-A288-39BE-14A4-9FC0B6E3CB15</schemaObject>
+<segment>8ADFE188-444B-BA80-63A6-0AA40AF9C765</segment>
+<tableSpace>6F6442FD-CFFA-6820-BD06-A51FEF04F0BB</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CORES_PK" id="CC044D1A-FFA1-E75D-2041-F5856A824E6C">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<segment>8ADFE188-444B-BA80-63A6-0AA40AF9C765</segment>
+<tableSpace>6F6442FD-CFFA-6820-BD06-A51FEF04F0BB</tableSpace>
+<existingIndex>596946D6-C799-F2C7-511B-88E80DA548DA</existingIndex>
+<indexSegment>8ADFE188-444B-BA80-63A6-0AA40AF9C765</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev10g>

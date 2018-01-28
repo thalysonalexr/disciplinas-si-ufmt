@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="MONITOR" directorySegmentName="seg_0" id="4FD04760-1CA7-B5EB-91A8-0649444E4412">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>35D58CE6-C0F3-9E10-03CC-909CD99398E3</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>20ACE87C-AFC7-9099-0C0F-33909119C2D7</segment>
+<tableSpace>98977902-9EBE-1B0E-8A27-D5CA2996DB9C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="IDFABRICANTE" id="16E3A755-6621-E45B-9CBE-D59A91A35990">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDMONITOR" id="2779ABF5-178E-B65C-31F0-D2ABF9767265">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRICAOMONITOR" id="BC266308-C6DA-2FEA-E779-61C7002AA273">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MONITOR_PK" id="9E39EF6F-6C64-C747-E0A4-4FB5DD67CC4F">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>35D58CE6-C0F3-9E10-03CC-909CD99398E3</schemaObject>
+<segment>0A35B269-4AFE-A412-9ED4-EE0F8C961284</segment>
+<tableSpace>98977902-9EBE-1B0E-8A27-D5CA2996DB9C</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="MONITOR_FABRICANTES_FK" id="78F3009D-54C1-9953-94EC-534590BA3FDE">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MONITOR_PK" id="EAB39BFD-D049-3F00-88F8-D34942B61CBC">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<segment>0A35B269-4AFE-A412-9ED4-EE0F8C961284</segment>
+<tableSpace>98977902-9EBE-1B0E-8A27-D5CA2996DB9C</tableSpace>
+<existingIndex>9E39EF6F-6C64-C747-E0A4-4FB5DD67CC4F</existingIndex>
+<indexSegment>0A35B269-4AFE-A412-9ED4-EE0F8C961284</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev10g>

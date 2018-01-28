@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="DADOS" directorySegmentName="seg_0" id="98977902-9EBE-1B0E-8A27-D5CA2996DB9C">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>EXERCICIOS2</sourceObjSchema>
+<sourceObjName>DADOS</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+</TableSpaceOraclev10g>

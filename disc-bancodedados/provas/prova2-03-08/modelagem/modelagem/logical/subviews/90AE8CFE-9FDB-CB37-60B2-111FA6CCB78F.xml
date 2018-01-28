@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<metadatadoc version="2.0">
+	<sub_view subview_name="Logical" id="90AE8CFE-9FDB-CB37-60B2-111FA6CCB78F" generator="null" visible="true" comment="" notes="" sv_type="main_view" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="">
+		<alter type="created">
+			<user>Administrador</user>
+			<timestamp>2017-08-03 20:58:56</timestamp>
+		</alter>
+		<alter type="changed">
+			<user>Administrador</user>
+			<timestamp>2017-08-03 20:58:56</timestamp>
+		</alter>
+		<main_display name="Logical" objectid="90AE8CFE-9FDB-CB37-60B2-111FA6CCB78F" notation="1" show_all_details="true" show_names_only="false" show_elements="false" show_datatype="false" show_keys="false" auto_route="true" box_in_box="false" comment="" notes="">
+			<alter type="created">
+				<user>Administrador</user>
+				<timestamp>2017-08-03 20:48:31</timestamp>
+			</alter>
+			<alter type="changed">
+				<user>Administrador</user>
+				<timestamp>2017-08-03 20:58:56</timestamp>
+			</alter>
+		</main_display>
+		<subordinate_displays />
+	</sub_view>
+</metadatadoc>

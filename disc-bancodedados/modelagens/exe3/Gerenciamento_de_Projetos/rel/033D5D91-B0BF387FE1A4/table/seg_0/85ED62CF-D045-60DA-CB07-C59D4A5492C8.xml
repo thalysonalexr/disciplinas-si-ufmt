@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="85ED62CF-D045-60DA-CB07-C59D4A5492C8" name="Departamentos">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:38:06 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<abbreviation>dep</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDDepartamento" id="C428F993-DE24-E46F-9E30-0A652B26B8FB">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:38:53 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeDepartamento" id="7C18F5B1-B081-7518-63FF-EA83EF3625F4">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:39:31 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="14101575-BD8A-75B1-AF30-D4BE0BE24377" name="Departamentos_PK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:39:31 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C428F993-DE24-E46F-9E30-0A652B26B8FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<metadatadoc version="2.0">
+	<object type="FKIndexAssociation" id="BC7D32E7-75ED-E9E4-A3FC-4C00D0228DF4" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="true" tableid="86FFA6A4-3CCA-B231-7141-35DD602DBB86" reftableid="468A5FFA-5FC5-CC4A-02AC-4C1DDDB564CF" references="61CC4FB5-880E-1181-AF4C-32928F666E51" localindexid="C873E1AE-CB64-6BDE-D250-675D4514D0E0" delrule="RESTRICT" mandatory="true" transferable="true" use_default_color="true" background_color="null" foreground_color="null">
+		<name>Cidades_Estados_FK</name>
+		<comment></comment>
+		<notes></notes>
+		<alter type="created">
+			<user>Administrador</user>
+			<timestamp>2017-07-06 21:37:27</timestamp>
+		</alter>
+		<alter type="changed">
+			<user>Administrador</user>
+			<timestamp>2017-07-06 21:37:29</timestamp>
+		</alter>
+		<properties>
+			<parameter name="design.owner" value="exe5" />
+			<parameter name="object.existsinrepository" value="true" />
+		</properties>
+		<engineering should="true" />
+		<des_obj_version version="1.0" />
+		<documents />
+		<parties />
+		<changerequests />
+		<measurements />
+	</object>
+</metadatadoc>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="VENDAS" directorySegmentName="seg_0" id="54077D15-22DA-EEA7-371D-EE788FAA6C75">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>0EA7F6AB-A288-39BE-14A4-9FC0B6E3CB15</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>03E80E9C-8120-52D5-D4E2-B6128F5694C0</segment>
+<tableSpace>6F6442FD-CFFA-6820-BD06-A51FEF04F0BB</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="IDVENDA" id="13ABA57D-3C5A-AD07-325E-33BC3CC32827">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDVENDEDOR" id="5C2F2722-EACB-FF80-EE36-A0883289B7C3">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDCLIENTE" id="955DABC9-A41A-4EF8-CC52-76FE69F5B658">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDVEICULO" id="A21E4CBC-D74A-AE6C-632E-42B74FB89D30">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATAVENDA" id="D62FF74E-9AD0-3EA6-C6D0-878A04F6C874">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDREVENDA" id="E85F9C34-3D4A-0609-931B-1D97E63E89D8">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDFORMASPGTO" id="FBF61B4D-18D4-9A39-1E9A-519B6CD14DD0">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="VENDAS_PK" id="28F81091-CE68-D7FD-9A08-7D5F62DD4C69">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>0EA7F6AB-A288-39BE-14A4-9FC0B6E3CB15</schemaObject>
+<segment>8ADFE188-444B-BA80-63A6-0AA40AF9C765</segment>
+<tableSpace>6F6442FD-CFFA-6820-BD06-A51FEF04F0BB</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="VENDAS_FORMASPAGAMENTO_FK" id="1F2DDC27-05EF-49B5-D3D8-751028C3BB4C">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="VENDAS_VEICULOS_FK" id="68C9C7F8-AAF8-1F5C-796D-39578EB44D0F">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="VENDAS_CLIENTES_FK" id="6E4E3E69-EE4A-1F3D-ED6A-6FCA9D5DD884">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="VENDAS_REVENDAS_FK" id="A14FC0F1-898D-DA9E-B1C2-11087995012B">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="VENDAS_VENDEDORES_FK" id="D67008A3-5A5B-6A67-66D0-69D1CA93F2B1">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="VENDAS_PK" id="3D35FA7B-8DAE-231B-ADD6-B6C2AC073A11">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<segment>8ADFE188-444B-BA80-63A6-0AA40AF9C765</segment>
+<tableSpace>6F6442FD-CFFA-6820-BD06-A51FEF04F0BB</tableSpace>
+<existingIndex>28F81091-CE68-D7FD-9A08-7D5F62DD4C69</existingIndex>
+<indexSegment>8ADFE188-444B-BA80-63A6-0AA40AF9C765</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev10g>

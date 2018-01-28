@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9C159460-6E89-7D63-DB72-F80DBDFB1B9A" containerWithKeyObject="F7199AB5-2775-A402-2624-3EFA33342D37" localFKIndex="84723F15-ADB0-DC9A-6055-F291CE6968A9" name="Pesquisador_Projetos_Pesquisadores_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 15:30:26 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<referredTableLongName>Pesquisadores</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>72682630-21C4-5FA9-CE11-A41B1510174A</referredTableID>
+<keyObject>19DCD70C-75C4-8BCA-1A6E-40E12476DCD3</keyObject>
+<referredKeyID>19DCD70C-75C4-8BCA-1A6E-40E12476DCD3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDPesquisador</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

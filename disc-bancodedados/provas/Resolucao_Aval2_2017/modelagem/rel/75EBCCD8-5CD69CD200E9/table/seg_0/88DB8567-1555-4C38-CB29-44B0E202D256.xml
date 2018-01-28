@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="88DB8567-1555-4C38-CB29-44B0E202D256" name="Atividades">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:58:14 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<abbreviation>ati</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDAtividade" id="319AEC6A-5E0B-9569-A8BD-DEF2B40895AD">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:59:21 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descricao" id="478E22E0-DC93-D263-3D5B-5EB50D88605D">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:59:21 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Beneficios" id="32C347D4-20E5-EE85-B887-8E5A32411E61">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:59:21 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="07795EC5-E299-AADA-80E0-4696F133E104" name="Atividades_PK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:59:21 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="319AEC6A-5E0B-9569-A8BD-DEF2B40895AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

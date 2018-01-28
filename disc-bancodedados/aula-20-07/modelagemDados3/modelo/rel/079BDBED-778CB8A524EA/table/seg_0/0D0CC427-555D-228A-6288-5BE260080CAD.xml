@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D0CC427-555D-228A-6288-5BE260080CAD" schemaObject="0EA7F6AB-A288-39BE-14A4-9FC0B6E3CB15" name="FABRICANTES">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>EXERCICIOS3</sourceObjSchema>
+<sourceObjName>FABRICANTES</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDFABRICANTE" id="39D013A6-7AA3-D4EA-C49D-A6F9CD923044">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>FABRICANTES</sourceObjSchema>
+<sourceObjName>IDFABRICANTE</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMEFABRICANTE" id="95F10A1B-0204-EE00-4035-A5DE0401C48C">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>FABRICANTES</sourceObjSchema>
+<sourceObjName>NOMEFABRICANTE</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1BF0BFC8-D570-168F-E2DC-7724039D0624" name="FABRICANTES_PK">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>EXERCICIOS3</sourceObjSchema>
+<sourceObjName>FABRICANTES_PK</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39D013A6-7AA3-D4EA-C49D-A6F9CD923044"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A9E7B65-64DF-BFE9-A825-44855854DE3A" schemaObject="0EA7F6AB-A288-39BE-14A4-9FC0B6E3CB15" name="FABRICANTES_PK">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>EXERCICIOS3</sourceObjSchema>
+<sourceObjName>FABRICANTES_PK</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39D013A6-7AA3-D4EA-C49D-A6F9CD923044"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

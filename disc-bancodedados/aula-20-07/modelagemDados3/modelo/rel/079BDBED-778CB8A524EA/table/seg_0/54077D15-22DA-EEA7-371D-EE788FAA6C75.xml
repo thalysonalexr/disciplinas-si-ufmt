@@ -1,0 +1,212 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="54077D15-22DA-EEA7-371D-EE788FAA6C75" schemaObject="0EA7F6AB-A288-39BE-14A4-9FC0B6E3CB15" name="VENDAS">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>EXERCICIOS3</sourceObjSchema>
+<sourceObjName>VENDAS</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDVENDA" id="13ABA57D-3C5A-AD07-325E-33BC3CC32827">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>VENDAS</sourceObjSchema>
+<sourceObjName>IDVENDA</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDREVENDA" id="E85F9C34-3D4A-0609-931B-1D97E63E89D8">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>VENDAS</sourceObjSchema>
+<sourceObjName>IDREVENDA</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7481B15-F28F-DDEC-F5BB-50EAAB73EABB" referredColumn="F19D873B-023C-6E46-8FC9-7123230CF417"/>
+</associations>
+</Column>
+<Column name="IDVENDEDOR" id="5C2F2722-EACB-FF80-EE36-A0883289B7C3">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>VENDAS</sourceObjSchema>
+<sourceObjName>IDVENDEDOR</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E2202A6-AE11-CFC2-4410-2C377143767D" referredColumn="D902A3D9-1A09-28D9-1C31-3BDD0E934C39"/>
+</associations>
+</Column>
+<Column name="IDVEICULO" id="A21E4CBC-D74A-AE6C-632E-42B74FB89D30">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>VENDAS</sourceObjSchema>
+<sourceObjName>IDVEICULO</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFABB013-8886-25C3-AC5C-0AD1530C1FD3" referredColumn="0BA9FAEE-0370-D800-E872-CC204AE4FAE2"/>
+</associations>
+</Column>
+<Column name="IDFORMASPGTO" id="FBF61B4D-18D4-9A39-1E9A-519B6CD14DD0">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>VENDAS</sourceObjSchema>
+<sourceObjName>IDFORMASPGTO</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F75A090-6C68-7888-BCA5-40A7F5A6F052" referredColumn="A6ABFEC3-614A-1B68-53E7-7885922C63E1"/>
+</associations>
+</Column>
+<Column name="DATAVENDA" id="D62FF74E-9AD0-3EA6-C6D0-878A04F6C874">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>VENDAS</sourceObjSchema>
+<sourceObjName>DATAVENDA</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDCLIENTE" id="955DABC9-A41A-4EF8-CC52-76FE69F5B658">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>VENDAS</sourceObjSchema>
+<sourceObjName>IDCLIENTE</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="081B6513-49C4-80B7-A549-057A74B5B623" referredColumn="B402AD3C-4A4E-C696-9494-5D8D89E85415"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D35FA7B-8DAE-231B-ADD6-B6C2AC073A11" name="VENDAS_PK">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>EXERCICIOS3</sourceObjSchema>
+<sourceObjName>VENDAS_PK</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13ABA57D-3C5A-AD07-325E-33BC3CC32827"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28F81091-CE68-D7FD-9A08-7D5F62DD4C69" schemaObject="0EA7F6AB-A288-39BE-14A4-9FC0B6E3CB15" name="VENDAS_PK">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>EXERCICIOS3</sourceObjSchema>
+<sourceObjName>VENDAS_PK</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13ABA57D-3C5A-AD07-325E-33BC3CC32827"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E4E3E69-EE4A-1F3D-ED6A-6FCA9D5DD884" name="VENDAS_CLIENTES_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="955DABC9-A41A-4EF8-CC52-76FE69F5B658"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F2DDC27-05EF-49B5-D3D8-751028C3BB4C" name="VENDAS_FORMASPAGAMENTO_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBF61B4D-18D4-9A39-1E9A-519B6CD14DD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A14FC0F1-898D-DA9E-B1C2-11087995012B" name="VENDAS_REVENDAS_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E85F9C34-3D4A-0609-931B-1D97E63E89D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68C9C7F8-AAF8-1F5C-796D-39578EB44D0F" name="VENDAS_VEICULOS_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A21E4CBC-D74A-AE6C-632E-42B74FB89D30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D67008A3-5A5B-6A67-66D0-69D1CA93F2B1" name="VENDAS_VENDEDORES_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C2F2722-EACB-FF80-EE36-A0883289B7C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

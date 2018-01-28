@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B12FF9B7-FAA6-8F0C-A483-CEF63920E855" containerWithKeyObject="D20BA756-6073-24B3-5986-77B0108CB616" localFKIndex="534CD36A-4442-C77F-DB2E-D21E4BE8A022" name="Monitores_Turmas_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 19:02:29 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<referredTableLongName>Turmas</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B768B2BD-6E4D-B954-3111-63B2CE2A3296</referredTableID>
+<keyObject>A250F954-58A6-DD3F-7748-0EEADD1B1EF2</keyObject>
+<referredKeyID>A250F954-58A6-DD3F-7748-0EEADD1B1EF2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDTurma</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

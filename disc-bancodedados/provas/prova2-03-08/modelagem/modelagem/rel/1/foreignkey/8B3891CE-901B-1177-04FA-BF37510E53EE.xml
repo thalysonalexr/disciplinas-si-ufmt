@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<metadatadoc version="2.0">
+	<object type="FKIndexAssociation" id="8B3891CE-901B-1177-04FA-BF37510E53EE" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="true" tableid="BE6F4CF3-B3B4-3008-BEA2-5075B65C9EDA" reftableid="7FBCC435-3454-2284-7E36-920431461A28" references="C33F84DE-2316-BAA5-1E7B-38907D015612" localindexid="0D615182-72AA-11DE-CC9C-D2CC9D5D51A5" delrule="RESTRICT" mandatory="true" transferable="true" use_default_color="true" background_color="null" foreground_color="null">
+		<name>TelefonesClientes_TiposTelefone_FK</name>
+		<comment></comment>
+		<notes></notes>
+		<alter type="created">
+			<user>Administrador</user>
+			<timestamp>2017-08-03 21:24:08</timestamp>
+		</alter>
+		<alter type="changed">
+			<user>Administrador</user>
+			<timestamp>2017-08-03 21:24:09</timestamp>
+		</alter>
+		<properties>
+			<parameter name="design.owner" value="modelo" />
+			<parameter name="object.existsinrepository" value="true" />
+		</properties>
+		<engineering should="true" />
+		<des_obj_version version="1.0" />
+		<documents />
+		<parties />
+		<changerequests />
+		<measurements />
+	</object>
+</metadatadoc>

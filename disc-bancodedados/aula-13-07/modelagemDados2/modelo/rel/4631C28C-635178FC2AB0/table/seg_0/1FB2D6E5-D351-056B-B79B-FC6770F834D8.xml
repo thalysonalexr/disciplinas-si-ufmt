@@ -1,0 +1,218 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1FB2D6E5-D351-056B-B79B-FC6770F834D8" schemaObject="35D58CE6-C0F3-9E10-03CC-909CD99398E3" name="COMPUTADORES">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>EXERCICIOS2</sourceObjSchema>
+<sourceObjName>COMPUTADORES</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDCOMPUTADOR" id="89632848-EE26-B97F-2E91-A78F7F99F932">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>COMPUTADORES</sourceObjSchema>
+<sourceObjName>IDCOMPUTADOR</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDFABRICANTE" id="46EC5395-2FAA-0721-43B6-688F38CE789B">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>COMPUTADORES</sourceObjSchema>
+<sourceObjName>IDFABRICANTE</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1C70F05-F00D-8BAE-77EB-4A7BBC94A361" referredColumn="1AEF824A-1DFC-FE11-D877-4AE3B3F2D91A"/>
+</associations>
+</Column>
+<Column name="IDMEMORIA" id="002312A1-12AC-5DA4-E36E-BAEB0D866E39">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>COMPUTADORES</sourceObjSchema>
+<sourceObjName>IDMEMORIA</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3625CF84-7085-78D6-B341-DE420E83769E" referredColumn="0DF4CF37-9BDF-65D6-6FC8-EFF6CF9CFFBE"/>
+</associations>
+</Column>
+<Column name="IDDISCORIGIDO" id="727226A9-0CE9-C958-3E12-7873F5FEDEB4">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>COMPUTADORES</sourceObjSchema>
+<sourceObjName>IDDISCORIGIDO</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F417274-9255-C774-5DBF-3A2B624B77D2" referredColumn="A31E0BCD-F8F6-CA37-FF33-D3FEA92022BB"/>
+</associations>
+</Column>
+<Column name="DESCRICAOCOMPUTADOR" id="55626EE2-2A99-322D-DE1F-02A5ADC3B9E9">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>COMPUTADORES</sourceObjSchema>
+<sourceObjName>DESCRICAOCOMPUTADOR</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDMONITOR" id="BC6466EF-63F2-60EA-A899-871BDF3CCFF8">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>COMPUTADORES</sourceObjSchema>
+<sourceObjName>IDMONITOR</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="971EC17E-598F-3F3B-28BA-F0C3A6FCEF35" referredColumn="2779ABF5-178E-B65C-31F0-D2ABF9767265"/>
+</associations>
+</Column>
+<Column name="CAPACIDADEHD" id="664BB34B-778E-1CC4-F8FF-1BE4BD93CFF8">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>COMPUTADORES</sourceObjSchema>
+<sourceObjName>CAPACIDADEHD</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAPACIDADERAM" id="37FBFDFB-3B30-894E-884E-FCC04D69EA18">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>COMPUTADORES</sourceObjSchema>
+<sourceObjName>CAPACIDADERAM</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96B60F70-6783-BD6A-CB37-BA63BFAEB794" name="COMPUTADORES_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>EXERCICIOS2</sourceObjSchema>
+<sourceObjName>COMPUTADORES_PK</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89632848-EE26-B97F-2E91-A78F7F99F932"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A996C9B9-A058-6810-B5C6-D6194A218365" schemaObject="35D58CE6-C0F3-9E10-03CC-909CD99398E3" name="COMPUTADORES_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>EXERCICIOS2</sourceObjSchema>
+<sourceObjName>COMPUTADORES_PK</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89632848-EE26-B97F-2E91-A78F7F99F932"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D6FD5AF-65FE-6F07-5225-44629B49A396" name="COMPUTADORES_DISCORIGIDO_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="727226A9-0CE9-C958-3E12-7873F5FEDEB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B10FFADE-3FAA-CD23-89CA-33343504E160" name="COMPUTADORES_FABRICANTES_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46EC5395-2FAA-0721-43B6-688F38CE789B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4A28F12-457B-509C-C02F-B8BB14FAAB83" name="COMPUTADORES_MEMORIAS_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="002312A1-12AC-5DA4-E36E-BAEB0D866E39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4B02F45-0F66-8DF7-6A07-D0DAEB91BC6C" name="COMPUTADORES_MONITOR_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC6466EF-63F2-60EA-A899-871BDF3CCFF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

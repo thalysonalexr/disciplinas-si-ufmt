@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="SOFTWARESINSTALADOS" directorySegmentName="seg_0" id="DA0A2ED4-D97B-20B3-F236-BF720F100D86">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>35D58CE6-C0F3-9E10-03CC-909CD99398E3</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>20ACE87C-AFC7-9099-0C0F-33909119C2D7</segment>
+<tableSpace>98977902-9EBE-1B0E-8A27-D5CA2996DB9C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="IDSOFTWARE" id="BA2AACFD-9D34-7A05-2082-3508C8776212">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDCOMPUTADOR" id="E76AE189-5557-4129-6A61-8D5BA630B60B">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SOFTWARESINSTALADOS_PK" id="9B64758C-3674-8685-5A5D-447BC3E282E6">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>35D58CE6-C0F3-9E10-03CC-909CD99398E3</schemaObject>
+<segment>0A35B269-4AFE-A412-9ED4-EE0F8C961284</segment>
+<tableSpace>98977902-9EBE-1B0E-8A27-D5CA2996DB9C</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SOFT_SOFTWARES_FK" id="1BE9E79A-1A7C-2F74-F77D-725B2D9BC4D2">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SOFTINST_COMP_FK" id="B4242AD9-3A12-41DF-67AF-00C058FC5851">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SOFTWARESINSTALADOS_PK" id="53554F08-2067-BC5E-152A-2A67D38411ED">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<segment>0A35B269-4AFE-A412-9ED4-EE0F8C961284</segment>
+<tableSpace>98977902-9EBE-1B0E-8A27-D5CA2996DB9C</tableSpace>
+<existingIndex>9B64758C-3674-8685-5A5D-447BC3E282E6</existingIndex>
+<indexSegment>0A35B269-4AFE-A412-9ED4-EE0F8C961284</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev10g>

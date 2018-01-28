@@ -1,0 +1,9 @@
+CONNECT SYS/ AS SYSDBA;
+
+CREATE ROLE gerente;
+
+GRANT CREATE SESSION, SELECT ON admin.clientes TO gerente;
+
+CREATE USER usuario IDENTIFIED BY senha DEFAULT TABLESPACE dados;
+
+GRANT gerente TO usuario;

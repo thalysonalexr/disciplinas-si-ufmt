@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E9B6FEA-2655-04E7-A962-77F8249C8A89" schemaObject="35D58CE6-C0F3-9E10-03CC-909CD99398E3" name="DISCORIGIDO">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>EXERCICIOS2</sourceObjSchema>
+<sourceObjName>DISCORIGIDO</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDDISCORIGIDO" id="A31E0BCD-F8F6-CA37-FF33-D3FEA92022BB">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>DISCORIGIDO</sourceObjSchema>
+<sourceObjName>IDDISCORIGIDO</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDFABRICANTE" id="31CDE484-E7BC-8DA0-7CCB-00AE37B07985">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>DISCORIGIDO</sourceObjSchema>
+<sourceObjName>IDFABRICANTE</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7ABCC104-E598-BD04-EB52-C5B0AF0A0E73" referredColumn="1AEF824A-1DFC-FE11-D877-4AE3B3F2D91A"/>
+</associations>
+</Column>
+<Column name="DESCRICAOHD" id="83742BEB-0C46-8731-3355-0EBC0D8186D0">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>DISCORIGIDO</sourceObjSchema>
+<sourceObjName>DESCRICAOHD</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BE9F3EF0-BEB2-FC35-B08E-F94A37F363B8" name="DISCORIGIDO_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>EXERCICIOS2</sourceObjSchema>
+<sourceObjName>DISCORIGIDO_PK</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A31E0BCD-F8F6-CA37-FF33-D3FEA92022BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44F5DE68-52EB-ED1C-CD2D-9A11BD21D242" schemaObject="35D58CE6-C0F3-9E10-03CC-909CD99398E3" name="DISCORIGIDO_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>EXERCICIOS2</sourceObjSchema>
+<sourceObjName>DISCORIGIDO_PK</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A31E0BCD-F8F6-CA37-FF33-D3FEA92022BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77FD518F-E896-945C-9F3E-B5230C432CAE" name="DISCORIGIDO_FABRICANTES_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31CDE484-E7BC-8DA0-7CCB-00AE37B07985"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

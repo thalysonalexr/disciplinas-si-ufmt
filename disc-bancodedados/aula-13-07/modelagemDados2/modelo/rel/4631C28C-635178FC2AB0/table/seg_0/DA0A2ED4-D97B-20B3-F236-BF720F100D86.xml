@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA0A2ED4-D97B-20B3-F236-BF720F100D86" schemaObject="35D58CE6-C0F3-9E10-03CC-909CD99398E3" name="SOFTWARESINSTALADOS">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>EXERCICIOS2</sourceObjSchema>
+<sourceObjName>SOFTWARESINSTALADOS</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDCOMPUTADOR" id="E76AE189-5557-4129-6A61-8D5BA630B60B">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SOFTWARESINSTALADOS</sourceObjSchema>
+<sourceObjName>IDCOMPUTADOR</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7006A36-FDB7-C71C-E368-13B77915E78B" referredColumn="89632848-EE26-B97F-2E91-A78F7F99F932"/>
+</associations>
+</Column>
+<Column name="IDSOFTWARE" id="BA2AACFD-9D34-7A05-2082-3508C8776212">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SOFTWARESINSTALADOS</sourceObjSchema>
+<sourceObjName>IDSOFTWARE</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AADE7EB1-05F8-C699-D560-18CA73F7D716" referredColumn="618A1C06-79E7-68DA-B060-BA5F7148CC21"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53554F08-2067-BC5E-152A-2A67D38411ED" name="SOFTWARESINSTALADOS_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>EXERCICIOS2</sourceObjSchema>
+<sourceObjName>SOFTWARESINSTALADOS_PK</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E76AE189-5557-4129-6A61-8D5BA630B60B"/>
+<colUsage columnID="BA2AACFD-9D34-7A05-2082-3508C8776212"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B64758C-3674-8685-5A5D-447BC3E282E6" schemaObject="35D58CE6-C0F3-9E10-03CC-909CD99398E3" name="SOFTWARESINSTALADOS_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>EXERCICIOS2</sourceObjSchema>
+<sourceObjName>SOFTWARESINSTALADOS_PK</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E76AE189-5557-4129-6A61-8D5BA630B60B"/>
+<colUsage columnID="BA2AACFD-9D34-7A05-2082-3508C8776212"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4242AD9-3A12-41DF-67AF-00C058FC5851" name="SOFTINST_COMP_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E76AE189-5557-4129-6A61-8D5BA630B60B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1BE9E79A-1A7C-2F74-F77D-725B2D9BC4D2" name="SOFT_SOFTWARES_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA2AACFD-9D34-7A05-2082-3508C8776212"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

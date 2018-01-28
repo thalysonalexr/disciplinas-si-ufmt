@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D20BA756-6073-24B3-5986-77B0108CB616" name="Monitores">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:54:06 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDMonitor" id="BDC85EEA-6DA8-39DC-2684-445B8BC0D679">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:55:27 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="07169DE6-AEB8-818B-8E54-32C2536D45CB">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:55:39 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDTurma" id="60A4B4F4-3A97-D6FB-F395-38ACB4E3F1CA">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 19:02:29 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B12FF9B7-FAA6-8F0C-A483-CEF63920E855" referredColumn="6CC5A0F0-1A8F-C9F1-0C95-CED152E30F71"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A7974940-116F-AAE5-4EB2-EE3F6B7F10BE" name="Monitores_PK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:55:27 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDC85EEA-6DA8-39DC-2684-445B8BC0D679"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="534CD36A-4442-C77F-DB2E-D21E4BE8A022" name="Monitores_Turmas_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 19:02:29 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60A4B4F4-3A97-D6FB-F395-38ACB4E3F1CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

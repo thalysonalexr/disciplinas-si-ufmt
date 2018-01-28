@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3625CF84-7085-78D6-B341-DE420E83769E" containerWithKeyObject="1FB2D6E5-D351-056B-B79B-FC6770F834D8" localFKIndex="A4A28F12-457B-509C-C02F-B8BB14FAAB83" name="COMPUTADORES_MEMORIAS_FK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>EXERCICIOS2</sourceObjSchema>
+<sourceObjName>COMPUTADORES_MEMORIAS_FK</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>EXERCICIOS2.MEMORIAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BC4DA6C4-17B8-D0A8-8946-255C5B71CDA9</referredTableID>
+<keyObject>FDDDBB49-5D28-2FDE-EC5F-422BBFDA4047</keyObject>
+<referredKeyID>FDDDBB49-5D28-2FDE-EC5F-422BBFDA4047</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDMEMORIA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

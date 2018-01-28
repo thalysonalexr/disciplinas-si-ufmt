@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<metadatadoc version="2.0">
+	<object type="Table" id="2B391225-ED97-37E9-A055-DB86C3B18926" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="true" entitytype="" splittedTableID="" allow_type_substitution="true" minVolumes="0" expectedVolumes="0" maxVolumes="9999999" growthPercent="0" growthType="Year" normalForm="Third" adequatelyNormalized="NO" abbreviation="" oid_is_pk="false" use_default_color="true" background_color="null" foreground_color="null">
+		<name>Vendas</name>
+		<comment></comment>
+		<notes></notes>
+		<alter type="created">
+			<user>Administrador</user>
+			<timestamp>2017-07-06 21:25:47</timestamp>
+		</alter>
+		<alter type="changed">
+			<user>Administrador</user>
+			<timestamp>2017-07-06 21:40:10</timestamp>
+		</alter>
+		<properties>
+			<parameter name="design.owner" value="exe5" />
+			<parameter name="object.existsinrepository" value="true" />
+			<parameter name="property.comment.rdbms" value="" />
+		</properties>
+		<include_in_ddl value="false" />
+		<beforeDrop value="" />
+		<beforeCreate value="" />
+		<beforeAlter value="" />
+		<afterCreate value="" />
+		<afterAlter value="" />
+		<endOfScript value="" />
+		<spatial_table value="false" />
+		<oid_pk_columns />
+		<engineering should="true" />
+		<des_obj_version version="1.0" />
+		<fonts>
+			<font_object>
+				<parameter name="fo_type" value="Title" />
+				<parameter name="font_color" value="-16776961" />
+				<parameter name="font_name" value="Dialog" />
+				<parameter name="font_size" value="10" />
+				<parameter name="font_style" value="1" />
+			</font_object>
+			<font_object>
+				<parameter name="fo_type" value="Column" />
+				<parameter name="font_color" value="-16777216" />
+				<parameter name="font_name" value="Dialog" />
+				<parameter name="font_size" value="10" />
+				<parameter name="font_style" value="0" />
+			</font_object>
+			<font_object>
+				<parameter name="fo_type" value="Datatype" />
+				<parameter name="font_color" value="-16744448" />
+				<parameter name="font_name" value="Dialog" />
+				<parameter name="font_size" value="10" />
+				<parameter name="font_style" value="0" />
+			</font_object>
+			<font_object>
+				<parameter name="fo_type" value="PK Element" />
+				<parameter name="font_color" value="-16776961" />
+				<parameter name="font_name" value="Dialog" />
+				<parameter name="font_size" value="10" />
+				<parameter name="font_style" value="0" />
+			</font_object>
+			<font_object>
+				<parameter name="fo_type" value="FK Element" />
+				<parameter name="font_color" value="-16777216" />
+				<parameter name="font_name" value="Dialog" />
+				<parameter name="font_size" value="10" />
+				<parameter name="font_style" value="0" />
+			</font_object>
+			<font_object>
+				<parameter name="fo_type" value="UK Element" />
+				<parameter name="font_color" value="-16776961" />
+				<parameter name="font_name" value="Dialog" />
+				<parameter name="font_size" value="10" />
+				<parameter name="font_style" value="0" />
+			</font_object>
+			<font_object>
+				<parameter name="fo_type" value="Not Null" />
+				<parameter name="font_color" value="-65536" />
+				<parameter name="font_name" value="Dialog" />
+				<parameter name="font_size" value="10" />
+				<parameter name="font_style" value="0" />
+			</font_object>
+			<font_object>
+				<parameter name="fo_type" value="Key" />
+				<parameter name="font_color" value="-16777216" />
+				<parameter name="font_name" value="Dialog" />
+				<parameter name="font_size" value="10" />
+				<parameter name="font_style" value="0" />
+			</font_object>
+		</fonts>
+		<documents />
+		<parties />
+		<changerequests />
+		<measurements />
+		<contained>
+			<object type="Column" id="E3F21DD9-62C8-8DD5-2819-87E7859DF482" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" unique="false" allownull="false" usedomainconstraints="true" is_oid="false" structured_attribute_id="" fk="false">
+				<name>IDVenda</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Administrador</user>
+					<timestamp>2017-07-06 21:26:06</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Administrador</user>
+					<timestamp>2017-07-06 21:26:58</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="exe5" />
+					<parameter name="object.existsinrepository" value="true" />
+					<parameter name="object.property.defaultvalue" value="" />
+					<parameter name="object.property.usesdefault" value="false" />
+					<parameter name="property.comment.rdbms" value="" />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<domain oid="DOM3000004" file="defaultdomains" />
+				<datatype dttype="packed" precision="" scale="" typename="NUMBER" />
+				<abbreviation />
+				<reference value="false" />
+				<logicaltype dttype="NUMERIC" oid="LOGDT019" />
+				<use value="logical type" />
+				<sourcetype sort="" />
+				<computed value="false" />
+				<formula desc="" />
+				<subtypeSubstitution value="true" />
+				<restricted_substitution value="false" />
+				<security />
+				<ui_defaults readOnly="false" displayedOnReports="true" displayedOnForms="true" displayAs="Text" />
+				<eng_attribute_id eng_id="none" />
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+			<object type="Column" id="86C81CB7-B639-DB35-F8CF-2B89A0B68D22" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" unique="false" allownull="true" usedomainconstraints="true" is_oid="false" structured_attribute_id="" fk="false">
+				<name>Quantidade</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Administrador</user>
+					<timestamp>2017-07-06 21:26:39</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Administrador</user>
+					<timestamp>2017-07-06 21:26:58</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="exe5" />
+					<parameter name="object.existsinrepository" value="true" />
+					<parameter name="object.property.defaultvalue" value="" />
+					<parameter name="object.property.usesdefault" value="false" />
+					<parameter name="property.comment.rdbms" value="" />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<domain oid="DOM3000004" file="defaultdomains" />
+				<datatype dttype="packed" precision="4" scale="0" typename="NUMBER" />
+				<abbreviation />
+				<reference value="false" />
+				<logicaltype dttype="NUMERIC" oid="LOGDT019" />
+				<use value="logical type" />
+				<sourcetype sort="" />
+				<computed value="false" />
+				<formula desc="" />
+				<subtypeSubstitution value="true" />
+				<restricted_substitution value="false" />
+				<security />
+				<ui_defaults readOnly="false" displayedOnReports="true" displayedOnForms="true" displayAs="Text" />
+				<eng_attribute_id eng_id="none" />
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+			<object type="Column" id="E7230F3B-1702-8710-9B12-3ED97F950391" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" unique="false" allownull="true" usedomainconstraints="true" is_oid="false" structured_attribute_id="" fk="false">
+				<name>Data</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Administrador</user>
+					<timestamp>2017-07-06 21:26:56</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Administrador</user>
+					<timestamp>2017-07-06 21:26:58</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="exe5" />
+					<parameter name="object.existsinrepository" value="true" />
+					<parameter name="object.property.defaultvalue" value="" />
+					<parameter name="object.property.usesdefault" value="false" />
+					<parameter name="property.comment.rdbms" value="" />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<domain oid="DOM3000004" file="defaultdomains" />
+				<datatype dttype="builtin" typename="DATE" />
+				<abbreviation />
+				<reference value="false" />
+				<logicaltype dttype="Date" oid="LOGDT007" />
+				<use value="logical type" />
+				<sourcetype sort="" />
+				<computed value="false" />
+				<formula desc="" />
+				<subtypeSubstitution value="true" />
+				<restricted_substitution value="false" />
+				<security />
+				<ui_defaults readOnly="false" displayedOnReports="true" displayedOnForms="true" displayAs="Text" />
+				<eng_attribute_id eng_id="none" />
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+			<object type="Column" id="4C9998C5-F56A-03BB-CC40-79EC77EA2D13" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" unique="false" allownull="false" usedomainconstraints="true" is_oid="false" structured_attribute_id="" fk="true" beforeDrop="">
+				<name>Clientes_IDCliente</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Administrador</user>
+					<timestamp>2017-07-06 21:38:08</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Administrador</user>
+					<timestamp>2017-07-06 21:38:08</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="exe5" />
+					<parameter name="object.existsinrepository" value="true" />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<domain oid="DOM3000004" file="defaultdomains" />
+				<datatype dttype="packed" precision="3" scale="0" typename="NUMBER" />
+				<abbreviation />
+				<reference value="false" />
+				<logicaltype dttype="NUMERIC" oid="LOGDT019" />
+				<use value="logical type" />
+				<sourcetype sort="" />
+				<computed value="false" />
+				<formula desc="" />
+				<subtypeSubstitution value="true" />
+				<restricted_substitution value="false" />
+				<security />
+				<ui_defaults readOnly="false" displayedOnReports="true" displayedOnForms="true" displayAs="Text" />
+				<eng_attribute_id eng_id="none" />
+				<is_previous_column value="false" />
+				<associations>
+					<associated tableid="B58E0CBE-21FA-6722-20DD-2B7FB3C1F0C8" indexid="1C87B37F-F2ED-2B7C-D618-4FFF55183874" references="9C0FDCBC-9501-66C9-52D5-4F886BAF269D" fkassid="144EC553-F770-9870-6EF4-D43CE42FDFB5" />
+				</associations>
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+			<object type="Column" id="C1C9D200-2426-85FE-6F0E-F24A7A21A3D0" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" unique="false" allownull="false" usedomainconstraints="true" is_oid="false" structured_attribute_id="" fk="true" beforeDrop="">
+				<name>Pagamento_IDPagamento</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Administrador</user>
+					<timestamp>2017-07-06 21:38:30</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Administrador</user>
+					<timestamp>2017-07-06 21:38:30</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="exe5" />
+					<parameter name="object.existsinrepository" value="true" />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<domain oid="DOM3000004" file="defaultdomains" />
+				<datatype dttype="packed" precision="3" scale="0" typename="NUMBER" />
+				<abbreviation />
+				<reference value="false" />
+				<logicaltype dttype="NUMERIC" oid="LOGDT019" />
+				<use value="logical type" />
+				<sourcetype sort="" />
+				<computed value="false" />
+				<formula desc="" />
+				<subtypeSubstitution value="true" />
+				<restricted_substitution value="false" />
+				<security />
+				<ui_defaults readOnly="false" displayedOnReports="true" displayedOnForms="true" displayAs="Text" />
+				<eng_attribute_id eng_id="none" />
+				<is_previous_column value="false" />
+				<associations>
+					<associated tableid="1F906CFB-31E9-CCD3-5642-5637C90B1E0F" indexid="DC6EA207-298E-81C4-2AAC-1497FF7F605B" references="F2DEE621-1648-0623-56AF-B8E142D6FC9C" fkassid="9605295B-B8A2-9C8E-315A-04F3DF8220F9" />
+				</associations>
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+			<object type="Column" id="B59D8995-9666-F0EF-145A-16556253706A" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" unique="false" allownull="false" usedomainconstraints="true" is_oid="false" structured_attribute_id="" fk="true" beforeDrop="">
+				<name>Atendente_IDAtendente</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Administrador</user>
+					<timestamp>2017-07-06 21:38:37</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Administrador</user>
+					<timestamp>2017-07-06 21:38:37</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="exe5" />
+					<parameter name="object.existsinrepository" value="true" />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<domain oid="DOM3000004" file="defaultdomains" />
+				<datatype dttype="packed" precision="3" scale="0" typename="NUMBER" />
+				<abbreviation />
+				<reference value="false" />
+				<logicaltype dttype="NUMERIC" oid="LOGDT019" />
+				<use value="logical type" />
+				<sourcetype sort="" />
+				<computed value="false" />
+				<formula desc="" />
+				<subtypeSubstitution value="true" />
+				<restricted_substitution value="false" />
+				<security />
+				<ui_defaults readOnly="false" displayedOnReports="true" displayedOnForms="true" displayAs="Text" />
+				<eng_attribute_id eng_id="none" />
+				<is_previous_column value="false" />
+				<associations>
+					<associated tableid="298EBC98-214B-F0F8-F6B8-BFF7C19D929D" indexid="DD1DD82A-698E-7D06-F28B-B6DBF340C612" references="5316D9CF-386F-7872-2110-74BBD3BAE8D7" fkassid="A8080747-3284-FC7F-9A5B-2060159EC3A4" />
+				</associations>
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+			<object type="Column" id="BC18232A-3B94-6586-FC6F-859C32ABB9EE" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" unique="false" allownull="false" usedomainconstraints="true" is_oid="false" structured_attribute_id="" fk="true" beforeDrop="">
+				<name>Produtos_IDProduto</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Administrador</user>
+					<timestamp>2017-07-06 21:38:57</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Administrador</user>
+					<timestamp>2017-07-06 21:38:57</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="exe5" />
+					<parameter name="object.existsinrepository" value="true" />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<domain oid="DOM3000004" file="defaultdomains" />
+				<datatype dttype="packed" precision="4" scale="0" typename="NUMBER" />
+				<abbreviation />
+				<reference value="false" />
+				<logicaltype dttype="NUMERIC" oid="LOGDT019" />
+				<use value="logical type" />
+				<sourcetype sort="" />
+				<computed value="false" />
+				<formula desc="" />
+				<subtypeSubstitution value="true" />
+				<restricted_substitution value="false" />
+				<security />
+				<ui_defaults readOnly="false" displayedOnReports="true" displayedOnForms="true" displayAs="Text" />
+				<eng_attribute_id eng_id="none" />
+				<is_previous_column value="false" />
+				<associations>
+					<associated tableid="B869ADAB-5124-F006-836D-8F60B118695B" indexid="5E452AB7-7FA9-C90D-1F20-5C3BDEE15A74" references="37353C3F-C8AB-E53B-3E9D-1EC716C2520C" fkassid="B31702D0-0B6A-EE7C-3209-646886CD9896" />
+				</associations>
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+		</contained>
+		<key>
+			<object type="Index" id="20ADB857-C2AF-E310-39E3-91BFED90C7F6" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" pk="true" indexstate="Primary Constraint">
+				<name>Vendas_PK</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Administrador</user>
+					<timestamp>2017-07-06 21:26:06</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Administrador</user>
+					<timestamp>2017-07-06 21:26:06</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="exe5" />
+					<parameter name="object.existsinrepository" value="true" />
+					<parameter name="property.comment.rdbms" value="" />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<functional></functional>
+				<contains type="Column" sortorder="ASC">E3F21DD9-62C8-8DD5-2819-87E7859DF482</contains>
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+			<object type="Index" id="FBB879DD-2D77-4D49-6BC8-BD72FA16060B" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" pk="false" indexstate="Plain Index">
+				<name>Vendas_Clientes_FK</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Administrador</user>
+					<timestamp>2017-07-06 21:38:08</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Administrador</user>
+					<timestamp>2017-07-06 21:38:08</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="exe5" />
+					<parameter name="object.existsinrepository" value="true" />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<functional></functional>
+				<contains type="Column">4C9998C5-F56A-03BB-CC40-79EC77EA2D13</contains>
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+			<object type="Index" id="AC4266DD-D084-B7BB-F12B-91BC28D153F0" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" pk="false" indexstate="Plain Index">
+				<name>Vendas_Pagamento_FK</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Administrador</user>
+					<timestamp>2017-07-06 21:38:30</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Administrador</user>
+					<timestamp>2017-07-06 21:38:30</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="exe5" />
+					<parameter name="object.existsinrepository" value="true" />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<functional></functional>
+				<contains type="Column">C1C9D200-2426-85FE-6F0E-F24A7A21A3D0</contains>
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+			<object type="Index" id="67073228-C706-C0B4-72B9-6A1FF06802D8" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" pk="false" indexstate="Plain Index">
+				<name>Vendas_Atendente_FK</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Administrador</user>
+					<timestamp>2017-07-06 21:38:37</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Administrador</user>
+					<timestamp>2017-07-06 21:38:37</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="exe5" />
+					<parameter name="object.existsinrepository" value="true" />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<functional></functional>
+				<contains type="Column">B59D8995-9666-F0EF-145A-16556253706A</contains>
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+			<object type="Index" id="7CC13AE5-EA56-D288-00CC-679A83D6BD5E" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" pk="false" indexstate="Plain Index">
+				<name>Vendas_Produtos_FK</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Administrador</user>
+					<timestamp>2017-07-06 21:38:57</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Administrador</user>
+					<timestamp>2017-07-06 21:38:57</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="exe5" />
+					<parameter name="object.existsinrepository" value="true" />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<functional></functional>
+				<contains type="Column">BC18232A-3B94-6586-FC6F-859C32ABB9EE</contains>
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+		</key>
+	</object>
+</metadatadoc>

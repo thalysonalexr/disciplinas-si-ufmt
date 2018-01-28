@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD279939-1E43-3965-BC95-61786ACC1E13" name="Tipos_Telefone">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:19:22 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<abbreviation>tip_tel</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDTipo" id="5A435518-E6EF-1070-6469-A93CD7EB3553">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:20:22 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descricao" id="B1BA3658-4594-78B5-4F71-80F4411DE2EF">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:20:53 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0C1357AB-3197-45CD-BEDF-C9EB2FEACAFA" name="Tipos_Telefone_PK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:20:03 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A435518-E6EF-1070-6469-A93CD7EB3553"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

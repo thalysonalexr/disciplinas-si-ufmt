@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7F75A090-6C68-7888-BCA5-40A7F5A6F052" containerWithKeyObject="54077D15-22DA-EEA7-371D-EE788FAA6C75" localFKIndex="1F2DDC27-05EF-49B5-D3D8-751028C3BB4C" name="VENDAS_FORMASPAGAMENTO_FK">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>EXERCICIOS3</sourceObjSchema>
+<sourceObjName>VENDAS_FORMASPAGAMENTO_FK</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>EXERCICIOS3.FORMASPAGAMENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DB3C82F2-1FB4-7D34-BE18-D1F16A919122</referredTableID>
+<keyObject>06ECA965-BD17-411B-8183-364965D59739</keyObject>
+<referredKeyID>06ECA965-BD17-411B-8183-364965D59739</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDFORMASPGTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

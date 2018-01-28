@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="94DDBF7E-D978-0210-E8FE-8428F9F9E410" name="Clientes">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:21:02 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<abbreviation>cli</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDCliente" id="9CDA8515-232E-3161-7061-40628722BDE6">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:23:34 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NomeCliente" id="5BBF166E-CDBF-67DB-3FE8-B97120816B2D">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:23:34 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RG" id="CF8AACD4-3319-2CD9-D3EC-E65825DB9DC7">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:24:17 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDCidade" id="C2C5D80F-DF0E-D3E8-837E-28B65207A0DF">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:24:43 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53339861-F2A7-CC04-2688-47148DA758C3" referredColumn="1D85EAD1-A637-D564-821A-9D1AB23FB845"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D9BA52B0-23B9-F615-03B5-0222E6748701" name="Clientes_PK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:23:34 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CDA8515-232E-3161-7061-40628722BDE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BE9992C-6E2D-CB0C-2EAD-BD0EFD66A7F0" name="Clientes_Cidades_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:24:43 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2C5D80F-DF0E-D3E8-837E-28B65207A0DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

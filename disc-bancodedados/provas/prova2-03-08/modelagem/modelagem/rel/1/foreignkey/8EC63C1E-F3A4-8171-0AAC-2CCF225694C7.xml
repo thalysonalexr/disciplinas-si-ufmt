@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<metadatadoc version="2.0">
+	<object type="FKIndexAssociation" id="8EC63C1E-F3A4-8171-0AAC-2CCF225694C7" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="true" tableid="EF50B6BF-9CA8-099F-3012-571CEB6C4815" reftableid="4622777A-8395-82C1-8B16-838BA876C05A" references="4037C535-FC73-60EB-5304-5874AE0B7560" localindexid="213D8EC0-E309-A818-9749-BFAA8CB2F4FF" delrule="RESTRICT" mandatory="true" transferable="true" use_default_color="true" background_color="null" foreground_color="null">
+		<name>Turmas_Monitores_FK</name>
+		<comment></comment>
+		<notes></notes>
+		<alter type="created">
+			<user>Administrador</user>
+			<timestamp>2017-08-03 21:17:58</timestamp>
+		</alter>
+		<alter type="changed">
+			<user>Administrador</user>
+			<timestamp>2017-08-03 21:18:03</timestamp>
+		</alter>
+		<properties>
+			<parameter name="design.owner" value="modelo" />
+			<parameter name="object.existsinrepository" value="true" />
+		</properties>
+		<engineering should="true" />
+		<des_obj_version version="1.0" />
+		<documents />
+		<parties />
+		<changerequests />
+		<measurements />
+	</object>
+</metadatadoc>

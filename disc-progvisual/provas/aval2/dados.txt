@@ -1,0 +1,8 @@
+notebook            acer       led        1
+desktop             hyperx     lcd        250
+desktop             sony       led        400
+desktop             ibm        tubo       900
+notebook            acer       lcd        300
+notebook            positivo   lcd        500
+notebook            hp         lcd        700
+desktop notebook    acer       led        999

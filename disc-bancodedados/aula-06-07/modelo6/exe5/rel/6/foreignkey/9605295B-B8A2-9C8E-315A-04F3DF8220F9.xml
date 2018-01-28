@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<metadatadoc version="2.0">
+	<object type="FKIndexAssociation" id="9605295B-B8A2-9C8E-315A-04F3DF8220F9" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="true" tableid="2B391225-ED97-37E9-A055-DB86C3B18926" reftableid="1F906CFB-31E9-CCD3-5642-5637C90B1E0F" references="DC6EA207-298E-81C4-2AAC-1497FF7F605B" localindexid="AC4266DD-D084-B7BB-F12B-91BC28D153F0" delrule="RESTRICT" mandatory="true" transferable="true" use_default_color="true" background_color="null" foreground_color="null">
+		<name>Vendas_Pagamento_FK</name>
+		<comment></comment>
+		<notes></notes>
+		<alter type="created">
+			<user>Administrador</user>
+			<timestamp>2017-07-06 21:38:30</timestamp>
+		</alter>
+		<alter type="changed">
+			<user>Administrador</user>
+			<timestamp>2017-07-06 21:41:12</timestamp>
+		</alter>
+		<properties>
+			<parameter name="design.owner" value="exe5" />
+			<parameter name="object.existsinrepository" value="true" />
+		</properties>
+		<engineering should="true" />
+		<des_obj_version version="1.0" />
+		<documents />
+		<parties />
+		<changerequests />
+		<measurements />
+	</object>
+</metadatadoc>

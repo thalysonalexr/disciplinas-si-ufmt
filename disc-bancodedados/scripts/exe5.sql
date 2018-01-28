@@ -1,0 +1,32 @@
+CONNECT SYS/ AS SYSDBA;
+
+CREATE USER coordenador2 IDENTIFIED BY abc
+DEFAULT TABLESPACE dados;
+
+GRANT DBA, RESOURCE, CONNECT TO coordenador2;
+
+CONNECT coordenador2/abc;
+
+CREATE TABLE notas(
+  nrLancamento NUMBER(8),
+  matricula NUMBER(7),
+  codigoDisciplina NUMBER(3),
+  codigoCurso NUMBER(3),
+  nota1 NUMBER(4,2) CONSTRAINT nota1_nn NOT NULL,
+  nota2 NUMBER(4,2) CONSTRAINT nota2_nn NOT NULL,
+  nota3 NUMBER(4,2) CONSTRAINT nota3_nn NOT NULL,
+  nota4 NUMBER(4,2) CONSTRAINT nota4_nn NOT NULL,
+  CONSTRAINT nrLancamento_pk PRIMARY KEY(nrLancamento));
+
+CREATE SEQUENCE SequenciaNotas
+  MINVALUE 1
+  MAXVALUE 20000
+  START WITH 1
+  INCREMENT BY 1
+  NOCACHE;
+
+CREATE USER secretaria IDENTIFIED BY abc DEFAULT TABLESPACE dados;
+CREATE USER aluno4 IDENTIFIED BY abc DEFAULT TABLESPACE dados;
+
+GRANT INSERT, SELECT, UPDATE ON coordenador2.notas TO secretaria;
+GRANT SELECT ON coordenador2.notas TO aluno4;

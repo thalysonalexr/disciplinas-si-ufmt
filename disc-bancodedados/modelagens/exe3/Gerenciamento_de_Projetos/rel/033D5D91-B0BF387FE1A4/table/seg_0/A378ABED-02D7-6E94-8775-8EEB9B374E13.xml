@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A378ABED-02D7-6E94-8775-8EEB9B374E13" name="Subordinados_Limpeza">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 15:11:49 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<abbreviation>sub_lim</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDGerente" id="849FB1EA-D154-E5CC-5E93-2A26AFDC965A">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 15:12:28 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="391704B5-F979-FA13-F29A-2E205529D0F9" referredColumn="B35095E2-77C3-CEDC-990A-05FFD27D36FC"/>
+</associations>
+</Column>
+<Column name="IDFuncionario" id="214ED29E-CE7C-8B03-4E77-6B5828DD7A41">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 15:12:38 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E0A6A32-E5B2-023C-38B3-33662F5B67CB" referredColumn="B35095E2-77C3-CEDC-990A-05FFD27D36FC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="25BFFA58-AA75-FC86-C486-70CF13A4BCBD" name="Subordinados_Limpeza_Limpeza_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 15:12:28 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="849FB1EA-D154-E5CC-5E93-2A26AFDC965A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37E338BC-9238-2DE7-CFEB-D2468259F6E1" name="Subordinados_Limpeza_Limpeza_FKv2">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 15:12:38 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="214ED29E-CE7C-8B03-4E77-6B5828DD7A41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

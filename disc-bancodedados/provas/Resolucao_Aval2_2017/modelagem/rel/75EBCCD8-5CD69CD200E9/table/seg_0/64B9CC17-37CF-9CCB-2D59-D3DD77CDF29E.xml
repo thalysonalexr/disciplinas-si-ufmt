@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="64B9CC17-37CF-9CCB-2D59-D3DD77CDF29E" name="Telefones_Clientes">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:51:10 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<abbreviation>tel_cli</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDTelefone" id="50250C6F-A54B-9469-002E-1A65BEA34053">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:51:40 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero" id="4F8D8A3D-40C0-DAD0-83FB-BCD9CBE5F01F">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:51:51 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDTipo" id="00E69754-A96D-E7D8-2702-3B4AFE34B430">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:52:08 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3451B2D-8883-D397-B107-5EDFEF7B5284" referredColumn="5A435518-E6EF-1070-6469-A93CD7EB3553"/>
+</associations>
+</Column>
+<Column name="IDCliente" id="55D1C808-2D32-730C-BFE3-7535BA5E52AA">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:52:34 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E1D122F-9708-3CAF-0F3C-4EEF20D6D878" referredColumn="336928EA-041C-09F1-8B40-9256C0386E04"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3B7B23C7-27C7-CA00-05AA-F6D94BBB249F" name="Telefones_Clientes_PK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:51:40 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50250C6F-A54B-9469-002E-1A65BEA34053"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D10607F-4D86-1355-3DAD-82844B11DD9D" name="Telefones_Clientes_Tipos_Telefone_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:52:08 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00E69754-A96D-E7D8-2702-3B4AFE34B430"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F4B2476-5AE6-5D11-9599-170BA0F29D2E" name="Telefones_Clientes_Clientes_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:52:34 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55D1C808-2D32-730C-BFE3-7535BA5E52AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

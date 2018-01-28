@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="VEICULOS" directorySegmentName="seg_0" id="589B1ACA-6B41-7C6B-2515-AB24FAB33C80">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>0EA7F6AB-A288-39BE-14A4-9FC0B6E3CB15</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>03E80E9C-8120-52D5-D4E2-B6128F5694C0</segment>
+<tableSpace>6F6442FD-CFFA-6820-BD06-A51FEF04F0BB</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="IDVEICULO" id="0BA9FAEE-0370-D800-E872-CC204AE4FAE2">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDCOR" id="18FD43DF-3C77-D7C3-0260-7130D3CE2086">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ANO" id="1A4D2DF3-0083-A603-E728-96B0056CF8D1">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDFABRICANTE" id="241B55C6-5210-ED07-2EC3-584F8B74B90F">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VALOR" id="360761D5-3D00-B7BB-C056-E9D05AE87A86">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MODELO" id="566ACF2B-3779-EEBB-4416-D5765CEA3D5F">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="POTENCIAHP" id="7F021E83-2927-2BD8-AC9E-484B5A68EDC9">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="VEICULOS_PK" id="082973F3-3EFA-F415-52AD-20D27904E300">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>0EA7F6AB-A288-39BE-14A4-9FC0B6E3CB15</schemaObject>
+<segment>8ADFE188-444B-BA80-63A6-0AA40AF9C765</segment>
+<tableSpace>6F6442FD-CFFA-6820-BD06-A51FEF04F0BB</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="VEICULOS_FABRICANTES_FK" id="1A2DF0AC-92A6-9B64-D72E-078148605E43">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="VEICULOS_CORES_FK" id="58FD6F5A-9AF1-9CBE-D2FA-79494B1E530A">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="VEICULOS_PK" id="C45CA3B3-83D4-02E0-4650-FF6EDBD9F809">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<segment>8ADFE188-444B-BA80-63A6-0AA40AF9C765</segment>
+<tableSpace>6F6442FD-CFFA-6820-BD06-A51FEF04F0BB</tableSpace>
+<existingIndex>082973F3-3EFA-F415-52AD-20D27904E300</existingIndex>
+<indexSegment>8ADFE188-444B-BA80-63A6-0AA40AF9C765</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev10g>

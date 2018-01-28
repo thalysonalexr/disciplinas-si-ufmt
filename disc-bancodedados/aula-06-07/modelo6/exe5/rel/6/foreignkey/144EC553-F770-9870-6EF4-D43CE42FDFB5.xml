@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<metadatadoc version="2.0">
+	<object type="FKIndexAssociation" id="144EC553-F770-9870-6EF4-D43CE42FDFB5" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="true" tableid="2B391225-ED97-37E9-A055-DB86C3B18926" reftableid="B58E0CBE-21FA-6722-20DD-2B7FB3C1F0C8" references="1C87B37F-F2ED-2B7C-D618-4FFF55183874" localindexid="FBB879DD-2D77-4D49-6BC8-BD72FA16060B" delrule="RESTRICT" mandatory="true" transferable="true" use_default_color="true" background_color="null" foreground_color="null">
+		<name>Vendas_Clientes_FK</name>
+		<comment></comment>
+		<notes></notes>
+		<alter type="created">
+			<user>Administrador</user>
+			<timestamp>2017-07-06 21:38:08</timestamp>
+		</alter>
+		<alter type="changed">
+			<user>Administrador</user>
+			<timestamp>2017-07-06 21:38:10</timestamp>
+		</alter>
+		<properties>
+			<parameter name="design.owner" value="exe5" />
+			<parameter name="object.existsinrepository" value="true" />
+		</properties>
+		<engineering should="true" />
+		<des_obj_version version="1.0" />
+		<documents />
+		<parties />
+		<changerequests />
+		<measurements />
+	</object>
+</metadatadoc>

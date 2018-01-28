@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F7199AB5-2775-A402-2624-3EFA33342D37" name="Pesquisador_Projetos">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 15:29:22 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<abbreviation>pes_pro</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDPesquisador" id="B6FB0719-2A23-D38E-7CE6-914F033BE8FE">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 15:30:26 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9C159460-6E89-7D63-DB72-F80DBDFB1B9A" referredColumn="616CE917-5872-B544-A5AF-CE1965604585"/>
+</associations>
+</Column>
+<Column name="IDProjeto" id="E98E2CB0-4895-2D98-2FEE-7E2B63E3BE15">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 15:30:42 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81923120-C8A1-E74F-C861-F7A7D2336656" referredColumn="B9448C4E-DDCF-A84F-1EB6-6C55663F11EE"/>
+</associations>
+</Column>
+<Column name="HorasSemanais" id="CFC21E73-DB62-B639-15BB-473DA6B6D19B">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 15:30:15 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84723F15-ADB0-DC9A-6055-F291CE6968A9" name="Pesquisador_Projetos_Pesquisadores_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 15:30:26 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6FB0719-2A23-D38E-7CE6-914F033BE8FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="236CA482-A827-D5A8-03D5-CB72B7C166AA" name="Pesquisador_Projetos_Projetos_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 15:30:42 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E98E2CB0-4895-2D98-2FEE-7E2B63E3BE15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

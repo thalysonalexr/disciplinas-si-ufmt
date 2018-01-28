@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v10g.StorageDesignOraclev10g>
+   <object objectType="TSpace" objectID="98977902-9EBE-1B0E-8A27-D5CA2996DB9C" name="" seqName="seg_0"/>
+   <object objectType="User" objectID="B369683C-68E1-3FA7-5F43-785B25EC2F17" name="" seqName="seg_0"/>
+   <object objectType="User" objectID="MDSYS" name="" seqName="seg_0"/>
+   <object objectType="User" objectID="PUBLIC" name="" seqName="seg_0"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="" seqName="seg_0"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="1E9B6FEA-2655-04E7-A962-77F8249C8A89" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="1FB2D6E5-D351-056B-B79B-FC6770F834D8" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="4FD04760-1CA7-B5EB-91A8-0649444E4412" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="7CA5E755-2BF4-33F8-5457-6D569ED4B11A" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="A8B20E17-EB2E-F427-AC3F-FCDE3F3639B3" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="BC4DA6C4-17B8-D0A8-8946-255C5B71CDA9" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="DA0A2ED4-D97B-20B3-F236-BF720F100D86" name="" seqName="seg_0"/>
+   <object objectType="Segment" objectID="0A35B269-4AFE-A412-9ED4-EE0F8C961284" name="" seqName="seg_0"/>
+   <object objectType="Segment" objectID="20ACE87C-AFC7-9099-0C0F-33909119C2D7" name="" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v10g.StorageDesignOraclev10g>

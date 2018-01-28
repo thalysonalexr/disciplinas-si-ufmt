@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA7D5C28-DDEF-0B4D-8A0C-2060107DD7FC" name="Restaurantes">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 16:07:28 UTC</createdTime>
+<ownerDesignName>Agencia_de_Turismo</ownerDesignName>
+<abbreviation>res</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDRestaurante" id="D7DA8EF7-5BB7-3369-B2C4-60608FBE44A4">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 16:09:47 UTC</createdTime>
+<ownerDesignName>Agencia_de_Turismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NomeRestaurante" id="851DE98E-69AF-9C67-098C-79082A986C53">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 16:09:47 UTC</createdTime>
+<ownerDesignName>Agencia_de_Turismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Endereco" id="ABF3AA12-69E5-5870-3328-8AEB8D824EFF">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 16:09:47 UTC</createdTime>
+<ownerDesignName>Agencia_de_Turismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDCategoria" id="C7D12D25-1A2A-4B4B-D540-93C7265A7B47">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 16:12:42 UTC</createdTime>
+<ownerDesignName>Agencia_de_Turismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B357A4B2-FDE9-1DFC-D74D-670EFF217798" referredColumn="10F2CDC7-019A-35A4-702E-CFA27BF42E33"/>
+</associations>
+</Column>
+<Column name="CodigoHotel" id="22106C38-F4DA-C242-D746-7CD5637C84BF">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 16:15:16 UTC</createdTime>
+<ownerDesignName>Agencia_de_Turismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C11F31D-088C-1EC3-28C0-79F0742C32AF" referredColumn="FE9B81AD-8F5F-E1E4-E602-7A1441DCFB99"/>
+</associations>
+</Column>
+<Column name="IDCidade" id="3CCC63F9-35EC-9549-474C-413F722C285D">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 19:31:44 UTC</createdTime>
+<ownerDesignName>Agencia_de_Turismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="914301BA-BC87-5EF1-268A-748343B37C8F" referredColumn="D0809455-83EF-8AAA-C7C0-93F736A7385A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A2D19D4E-6244-8C07-BF53-9685B050648B" name="Restaurantes_PK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 16:09:47 UTC</createdTime>
+<ownerDesignName>Agencia_de_Turismo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7DA8EF7-5BB7-3369-B2C4-60608FBE44A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C1C2FB4-C86C-5DD1-E1A5-F4001DAE2A7B" name="Restaurantes_Categorias_Restaurantes_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 16:12:42 UTC</createdTime>
+<ownerDesignName>Agencia_de_Turismo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7D12D25-1A2A-4B4B-D540-93C7265A7B47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="037B2E1E-3427-6837-1644-A76C2373A6FC" name="Restaurantes_Hoteis_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 16:15:16 UTC</createdTime>
+<ownerDesignName>Agencia_de_Turismo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22106C38-F4DA-C242-D746-7CD5637C84BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA4F7681-9A2E-5261-1B60-E33FB4854038" name="Restaurantes_Cidades_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 19:31:44 UTC</createdTime>
+<ownerDesignName>Agencia_de_Turismo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CCC63F9-35EC-9549-474C-413F722C285D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

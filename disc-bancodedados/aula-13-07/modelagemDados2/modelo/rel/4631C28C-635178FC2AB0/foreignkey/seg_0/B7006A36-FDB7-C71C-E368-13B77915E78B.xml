@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B7006A36-FDB7-C71C-E368-13B77915E78B" containerWithKeyObject="DA0A2ED4-D97B-20B3-F236-BF720F100D86" localFKIndex="B4242AD9-3A12-41DF-67AF-00C058FC5851" name="SOFTINST_COMP_FK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>EXERCICIOS2</sourceObjSchema>
+<sourceObjName>SOFTINST_COMP_FK</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>EXERCICIOS2.COMPUTADORES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1FB2D6E5-D351-056B-B79B-FC6770F834D8</referredTableID>
+<keyObject>96B60F70-6783-BD6A-CB37-BA63BFAEB794</keyObject>
+<referredKeyID>96B60F70-6783-BD6A-CB37-BA63BFAEB794</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDCOMPUTADOR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="7DCE4585-3435-FA30-1E4E-1212EA5F64AE" mainViewID="AE86199C-C08F-B4FF-7F3C-1F79BB6B09B9">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:09:18 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>D9582E4E-79E2-319F-387A-2ED963CB9D32</selectedRDBMSSite>
+</relationalModel>

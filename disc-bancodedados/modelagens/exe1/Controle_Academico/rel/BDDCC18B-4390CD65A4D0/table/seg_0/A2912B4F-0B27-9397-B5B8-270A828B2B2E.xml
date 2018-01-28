@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2912B4F-0B27-9397-B5B8-270A828B2B2E" name="Departamentos">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 13:40:08 UTC</createdTime>
+<ownerDesignName>Controle_Academico</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<abbreviation>dep</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDDerpatamento" id="AC03CA06-7EDC-8790-BBD4-1D60B20132C7">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 13:40:35 UTC</createdTime>
+<ownerDesignName>Controle_Academico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeDepartamento" id="DFB81A2A-6B7A-CBCF-A881-5812A3319A44">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 13:40:53 UTC</createdTime>
+<ownerDesignName>Controle_Academico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sigla" id="E02D5E31-3A17-84BF-7986-142DB7C7B767">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 13:41:21 UTC</createdTime>
+<ownerDesignName>Controle_Academico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="86FF72CA-8E88-8A99-39C3-DF1C1A98DCEE">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 13:42:04 UTC</createdTime>
+<ownerDesignName>Controle_Academico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1244E2CA-0446-6940-9434-A65107EE3F8A" name="Departamentos_PK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 13:40:35 UTC</createdTime>
+<ownerDesignName>Controle_Academico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC03CA06-7EDC-8790-BBD4-1D60B20132C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

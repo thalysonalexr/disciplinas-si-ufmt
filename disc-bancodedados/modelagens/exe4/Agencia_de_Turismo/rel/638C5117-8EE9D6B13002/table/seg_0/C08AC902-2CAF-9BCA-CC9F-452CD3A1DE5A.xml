@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C08AC902-2CAF-9BCA-CC9F-452CD3A1DE5A" name="Quartos">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 15:46:40 UTC</createdTime>
+<ownerDesignName>Agencia_de_Turismo</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<abbreviation>qua</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NumeroQuarto" id="DBD07B8F-FC7D-E961-B77B-C5E72286FA60">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 15:47:46 UTC</createdTime>
+<ownerDesignName>Agencia_de_Turismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CodigoHotel" id="F5B0CD0F-3351-983E-C725-093D44DB0533">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 15:54:33 UTC</createdTime>
+<ownerDesignName>Agencia_de_Turismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29298454-3B84-B7F5-1D1E-2E222A749309" referredColumn="FE9B81AD-8F5F-E1E4-E602-7A1441DCFB99"/>
+</associations>
+</Column>
+<Column name="IDTipo" id="01CE95F7-7509-C4C5-C02E-64A86E67093B">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 15:52:52 UTC</createdTime>
+<ownerDesignName>Agencia_de_Turismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A74936C9-7E66-E4B8-9282-68320574A882" referredColumn="6D21CDE7-8998-6A62-AC19-F350CC2E21B2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="69820230-3F84-430D-43E0-34C8A000D3D5" name="Quartos_PK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 15:48:09 UTC</createdTime>
+<ownerDesignName>Agencia_de_Turismo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBD07B8F-FC7D-E961-B77B-C5E72286FA60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4F650C9-868B-E4A7-FE06-3B0AD8784643" name="Quartos_Tipo_Quarto_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 15:52:52 UTC</createdTime>
+<ownerDesignName>Agencia_de_Turismo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01CE95F7-7509-C4C5-C02E-64A86E67093B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E6E644B-BC00-8477-47F8-D0D6FBBC6345" name="Quartos_Hoteis_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 15:54:33 UTC</createdTime>
+<ownerDesignName>Agencia_de_Turismo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5B0CD0F-3351-983E-C725-093D44DB0533"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

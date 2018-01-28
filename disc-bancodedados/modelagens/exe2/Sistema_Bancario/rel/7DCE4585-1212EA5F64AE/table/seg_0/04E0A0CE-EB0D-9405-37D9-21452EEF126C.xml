@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="04E0A0CE-EB0D-9405-37D9-21452EEF126C" name="Cidades">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:10:47 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<abbreviation>cid</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDCidade" id="1D85EAD1-A637-D564-821A-9D1AB23FB845">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:11:27 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NomeCidade" id="2A3E0186-EF73-5066-E9FB-D3D6D8ADC98E">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:11:27 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7BBBCE73-10DE-07B9-968E-97C2C04AF7B3" name="Cidades_PK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:11:27 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D85EAD1-A637-D564-821A-9D1AB23FB845"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

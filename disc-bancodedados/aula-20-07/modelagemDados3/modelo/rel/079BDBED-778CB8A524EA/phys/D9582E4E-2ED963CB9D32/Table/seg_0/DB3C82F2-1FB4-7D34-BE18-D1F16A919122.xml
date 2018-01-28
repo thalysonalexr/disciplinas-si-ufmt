@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="FORMASPAGAMENTO" directorySegmentName="seg_0" id="DB3C82F2-1FB4-7D34-BE18-D1F16A919122">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>0EA7F6AB-A288-39BE-14A4-9FC0B6E3CB15</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>03E80E9C-8120-52D5-D4E2-B6128F5694C0</segment>
+<tableSpace>6F6442FD-CFFA-6820-BD06-A51FEF04F0BB</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DESCRICAOFORMAPGTO" id="86AE2964-06FB-1EB2-8338-5BA08D247C99">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDFORMASPGTO" id="A6ABFEC3-614A-1B68-53E7-7885922C63E1">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="FORMASPAGAMENTO_PK" id="AF94563F-40AB-F954-7409-326B98862414">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>0EA7F6AB-A288-39BE-14A4-9FC0B6E3CB15</schemaObject>
+<segment>8ADFE188-444B-BA80-63A6-0AA40AF9C765</segment>
+<tableSpace>6F6442FD-CFFA-6820-BD06-A51FEF04F0BB</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="FORMASPAGAMENTO_PK" id="06ECA965-BD17-411B-8183-364965D59739">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<segment>8ADFE188-444B-BA80-63A6-0AA40AF9C765</segment>
+<tableSpace>6F6442FD-CFFA-6820-BD06-A51FEF04F0BB</tableSpace>
+<existingIndex>AF94563F-40AB-F954-7409-326B98862414</existingIndex>
+<indexSegment>8ADFE188-444B-BA80-63A6-0AA40AF9C765</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev10g>

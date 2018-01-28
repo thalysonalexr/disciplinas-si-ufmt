@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EAC5DBFC-C212-5003-C5BF-034F3E96C119" name="Status">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 13:33:37 UTC</createdTime>
+<ownerDesignName>Controle_Academico</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<abbreviation>sta</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numMatricula" id="ADD4EF0A-E846-47AD-9719-DEB6207A86C6">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 13:34:53 UTC</createdTime>
+<ownerDesignName>Controle_Academico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08BB38F3-5CE5-62E0-912C-3B5F052855C5" referredColumn="23953726-5022-A0F7-662C-34552D125308"/>
+</associations>
+</Column>
+<Column name="IDDisciplina" id="388D2BAC-5F66-B4F3-A0BE-C45E2A9E7AAE">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 13:34:58 UTC</createdTime>
+<ownerDesignName>Controle_Academico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="296F72C1-B02B-7843-E7FB-2D1E3CC5F380" referredColumn="AC537747-E64C-D63E-7CDF-59BAADB0CA59"/>
+</associations>
+</Column>
+<Column name="concluida" id="CFAD548D-09ED-2B28-97D9-766CE2C0B899">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:02:42 UTC</createdTime>
+<ownerDesignName>Controle_Academico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB8CF172-53FE-DD29-902F-2DEF545745CF" name="Status_Alunos_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 13:34:53 UTC</createdTime>
+<ownerDesignName>Controle_Academico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADD4EF0A-E846-47AD-9719-DEB6207A86C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5AB7254-1FAC-2D30-192E-0E7E566F6BCC" name="Status_Disciplinas_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 13:34:58 UTC</createdTime>
+<ownerDesignName>Controle_Academico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="388D2BAC-5F66-B4F3-A0BE-C45E2A9E7AAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

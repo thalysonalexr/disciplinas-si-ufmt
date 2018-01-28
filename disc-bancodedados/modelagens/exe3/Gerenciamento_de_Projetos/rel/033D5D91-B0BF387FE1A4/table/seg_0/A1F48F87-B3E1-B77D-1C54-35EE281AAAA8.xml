@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A1F48F87-B3E1-B77D-1C54-35EE281AAAA8" name="Projetos">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:39:56 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<abbreviation>pro</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDProjeto" id="B9448C4E-DDCF-A84F-1EB6-6C55663F11EE">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:41:46 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NomeProjeto" id="AA5F5276-D679-C4FE-07A0-6A1090EAA03B">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:41:46 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descricao" id="F066CF19-18D7-D308-0F5A-FDB911FBEA81">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:41:46 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataInicio" id="638E75DF-A4FA-3109-D6E3-8096FC6ACF09">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:41:46 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataFinal" id="27A97CA6-BF3E-37BC-51CD-3EC7E70B6DB5">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:42:05 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDDepartamento" id="B68ACE83-5DA2-2C6D-064F-C1A4B474001B">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:42:24 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8AC0302-80C8-FB28-D169-C96B06D81C33" referredColumn="C428F993-DE24-E46F-9E30-0A652B26B8FB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="18ABB362-ADAD-C415-9D62-0F36C62E7899" name="Projetos_PK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:41:46 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9448C4E-DDCF-A84F-1EB6-6C55663F11EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67D448DF-61F6-EFC4-1D6C-704C6A07A087" name="Projetos_Departamentos_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:42:24 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B68ACE83-5DA2-2C6D-064F-C1A4B474001B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

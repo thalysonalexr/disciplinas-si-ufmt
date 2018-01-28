@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0748E912-44A1-0C87-16A1-E3C35B1490FC" name="Transacoes">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:28:03 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<abbreviation>tra</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NumeroTransacao" id="5BA5AF0A-1CBF-9B5C-DBC1-63FF7E04F404">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:29:37 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data" id="416D1CE8-1E53-B183-78B7-0A080EEBA548">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:30:14 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Valor" id="0596F5CB-B42F-EA63-3BB8-F76D88F6F036">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:30:14 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDConta" id="1A64BC56-F1B2-0CDC-AF36-058D31DF88E5">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:31:20 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23553B37-D372-0EC1-162C-B17C2099595F" referredColumn="57CD4D00-A78C-1133-5202-26A0099FB563"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="486DB750-1A7F-1D3C-26DB-545D1DD79E29" name="Transacoes_PK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:29:37 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BA5AF0A-1CBF-9B5C-DBC1-63FF7E04F404"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBE90CC8-3D91-DD2E-4E9A-C68AFC464D15" name="Transacoes_Contas_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:31:20 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A64BC56-F1B2-0CDC-AF36-058D31DF88E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

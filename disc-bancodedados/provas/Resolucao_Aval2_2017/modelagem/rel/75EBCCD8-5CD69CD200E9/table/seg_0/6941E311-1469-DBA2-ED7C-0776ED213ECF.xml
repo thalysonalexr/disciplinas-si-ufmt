@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6941E311-1469-DBA2-ED7C-0776ED213ECF" name="Matriculas">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:46:48 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<abbreviation>mat</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDTurma" id="63DE48C6-F9E8-3A1E-7DA9-6F5B4E4E23CD">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:47:17 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43130546-6DE9-9CA7-615A-9BE3B8EFE880" referredColumn="6CC5A0F0-1A8F-C9F1-0C95-CED152E30F71"/>
+</associations>
+</Column>
+<Column name="IDCliente" id="DB14A0B2-4D52-4347-E7E2-8AF817146ED9">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:47:23 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ABD9F723-7149-A52D-079B-1D4FDFD9BB39" referredColumn="336928EA-041C-09F1-8B40-9256C0386E04"/>
+</associations>
+</Column>
+<Column name="Faltas" id="35069660-2420-DB60-4106-9BE68E801F6F">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:49:17 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="03ADE06B-4B4E-6228-BD3D-37E4D979DBEC" name="Turma_Aluno_Turmas_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:47:17 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63DE48C6-F9E8-3A1E-7DA9-6F5B4E4E23CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26A292B8-2395-C417-53F6-A03559098516" name="Turma_Aluno_Clientes_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:47:23 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB14A0B2-4D52-4347-E7E2-8AF817146ED9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

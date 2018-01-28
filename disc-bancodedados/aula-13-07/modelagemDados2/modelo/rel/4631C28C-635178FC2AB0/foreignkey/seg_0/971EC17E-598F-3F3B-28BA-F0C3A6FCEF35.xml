@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="971EC17E-598F-3F3B-28BA-F0C3A6FCEF35" containerWithKeyObject="1FB2D6E5-D351-056B-B79B-FC6770F834D8" localFKIndex="B4B02F45-0F66-8DF7-6A07-D0DAEB91BC6C" name="COMPUTADORES_MONITOR_FK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>EXERCICIOS2</sourceObjSchema>
+<sourceObjName>COMPUTADORES_MONITOR_FK</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>EXERCICIOS2.MONITOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4FD04760-1CA7-B5EB-91A8-0649444E4412</referredTableID>
+<keyObject>EAB39BFD-D049-3F00-88F8-D34942B61CBC</keyObject>
+<referredKeyID>EAB39BFD-D049-3F00-88F8-D34942B61CBC</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>IDMONITOR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F25882E-7D58-33BC-F3FD-20D0E82F405B" name="Disciplinas">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-12 19:25:50 UTC</createdTime>
+<ownerDesignName>Controle_Academico</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<abbreviation>dis</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDDisciplina" id="AC537747-E64C-D63E-7CDF-59BAADB0CA59">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-12 19:26:52 UTC</createdTime>
+<ownerDesignName>Controle_Academico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeDisciplina" id="BAC2DDC6-3C61-2560-D148-61D3BFF5D9C9">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-12 19:26:52 UTC</createdTime>
+<ownerDesignName>Controle_Academico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="obrigatoria" id="0D11FCE0-0362-BF3B-79C6-ACABD98F30F9">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 13:50:59 UTC</createdTime>
+<ownerDesignName>Controle_Academico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="FDC579CD-1917-530D-7233-934A5FEBC09D">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-12 19:27:07 UTC</createdTime>
+<ownerDesignName>Controle_Academico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDCurso" id="A1625096-830A-8317-57C5-03010584026C">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:04:02 UTC</createdTime>
+<ownerDesignName>Controle_Academico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F7721F5-9C4B-AC2C-B0D5-C3AB34A93CF8" referredColumn="87D38252-F9A8-62C0-56E9-8380812C6153"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90F7EF1D-FCC4-0D98-7B36-AF6675CBB0BF" name="Disciplinas_PK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-12 19:26:52 UTC</createdTime>
+<ownerDesignName>Controle_Academico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC537747-E64C-D63E-7CDF-59BAADB0CA59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FDFAA425-C1E4-9015-70DD-B1FA43195360" name="Disciplinas_Cursos_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:04:02 UTC</createdTime>
+<ownerDesignName>Controle_Academico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1625096-830A-8317-57C5-03010584026C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB3C82F2-1FB4-7D34-BE18-D1F16A919122" schemaObject="0EA7F6AB-A288-39BE-14A4-9FC0B6E3CB15" name="FORMASPAGAMENTO">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>EXERCICIOS3</sourceObjSchema>
+<sourceObjName>FORMASPAGAMENTO</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDFORMASPGTO" id="A6ABFEC3-614A-1B68-53E7-7885922C63E1">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>FORMASPAGAMENTO</sourceObjSchema>
+<sourceObjName>IDFORMASPGTO</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRICAOFORMAPGTO" id="86AE2964-06FB-1EB2-8338-5BA08D247C99">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>FORMASPAGAMENTO</sourceObjSchema>
+<sourceObjName>DESCRICAOFORMAPGTO</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="06ECA965-BD17-411B-8183-364965D59739" name="FORMASPAGAMENTO_PK">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>EXERCICIOS3</sourceObjSchema>
+<sourceObjName>FORMASPAGAMENTO_PK</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6ABFEC3-614A-1B68-53E7-7885922C63E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF94563F-40AB-F954-7409-326B98862414" schemaObject="0EA7F6AB-A288-39BE-14A4-9FC0B6E3CB15" name="FORMASPAGAMENTO_PK">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>EXERCICIOS3</sourceObjSchema>
+<sourceObjName>FORMASPAGAMENTO_PK</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6ABFEC3-614A-1B68-53E7-7885922C63E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

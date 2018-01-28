@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4BF0B0EA-9731-D806-0761-7984A7BE4D2C" name="Enderecos">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:23:23 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<abbreviation>end</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDEndereco" id="7871AFE0-794E-C9A6-5C02-56D67C455EBF">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:23:43 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rua" id="A6DF2782-F444-F41D-82C5-91AA86F5D0E7">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:26:33 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero" id="A835908A-2329-970C-D95C-74C70D1D31D6">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:27:18 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="771BDC7C-D7E2-F6AC-ECEA-1EE8F3FFDF22" name="Enderecos_PK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:24:07 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7871AFE0-794E-C9A6-5C02-56D67C455EBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="354DFC5E-7205-D3A1-2119-F39687A47D61" name="Funcionarios">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:12:47 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<abbreviation>fun</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDFuncionario" id="3EC6564E-FFAE-CCC5-67CF-A427DF25C636">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:14:19 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NomeFuncionario" id="09D310A6-4320-FC18-5EA5-F61E89BE2D24">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:14:39 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Salario" id="577742CE-0944-812D-7D1D-93FF1EEAD5BB">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:17:22 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Endereco" id="04788AE1-67AE-F9D7-0BE0-16A10DEF1C58">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:19:48 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDAgencia" id="0989D7D2-4ABB-C760-10A1-BF97804FEAF1">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:19:58 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9135BF5E-285C-D977-5E70-3BDF0338EEE6" referredColumn="85D5D84E-540D-D22A-FB28-79290E67A992"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58F953BC-2034-8365-A269-A85F2D70722C" name="Funcionarios_PK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:14:19 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EC6564E-FFAE-CCC5-67CF-A427DF25C636"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D5C0779-4465-F803-AEAB-26C07343E669" name="Funcionarios_Agencias_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:19:58 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0989D7D2-4ABB-C760-10A1-BF97804FEAF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

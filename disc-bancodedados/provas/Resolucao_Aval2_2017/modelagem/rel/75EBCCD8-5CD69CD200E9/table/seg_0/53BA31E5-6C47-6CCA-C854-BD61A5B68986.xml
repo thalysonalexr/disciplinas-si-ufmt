@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="53BA31E5-6C47-6CCA-C854-BD61A5B68986" name="Clientes">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 17:55:29 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<abbreviation>cli</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDCliente" id="336928EA-041C-09F1-8B40-9256C0386E04">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 17:59:02 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataMatricula" id="24611B5B-E8AF-55B0-174A-5069C4660BA3">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:35:06 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="3597FFC3-1CF9-2C60-B48D-3F21F810FCE5">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:35:06 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataNascimento" id="0546F17B-D9E5-29D6-4545-93F8761A9DBC">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:35:06 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Altura" id="1D3DB4CB-D472-34D5-17DF-9F76F40B9B0B">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:35:38 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Peso" id="3C64C67B-0489-AEAA-43B9-74D402FD06D6">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:36:47 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDEndereco" id="E670FDDC-10A3-6378-8478-C6A0B5AE78A6">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:40:24 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0CF35520-A185-F030-3E28-999ADFFC30A0" referredColumn="7871AFE0-794E-C9A6-5C02-56D67C455EBF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="21EF1433-9B4D-8D4D-DE07-E76E365FC4EA" name="Clientes_PK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 17:59:02 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="336928EA-041C-09F1-8B40-9256C0386E04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F85E847-6C6C-0D2C-1E5A-EE9FD9481201" name="Clientes_Enderecos_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:40:24 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E670FDDC-10A3-6378-8478-C6A0B5AE78A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<metadatadoc version="2.0">
+	<object type="FKIndexAssociation" id="1559DAFE-F0C8-1150-F301-25F87C8EDF13" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="true" tableid="8F3D52AB-2D24-9CAB-A455-4E149D6C5FBE" reftableid="F031333C-65AB-08EA-8AE6-3D5EB097A31A" references="78C223A8-A9ED-4960-8D6C-496EE2F34A2F" localindexid="D7188B5A-C0C1-EB4E-0E2D-B0BD21251CD2" delrule="RESTRICT" mandatory="true" transferable="true" use_default_color="true" background_color="null" foreground_color="null">
+		<name>Alunos_Cursos_FK</name>
+		<comment></comment>
+		<notes></notes>
+		<alter type="created">
+			<user>Administrador</user>
+			<timestamp>2017-07-06 19:57:53</timestamp>
+		</alter>
+		<alter type="changed">
+			<user>Administrador</user>
+			<timestamp>2017-07-06 19:58:08</timestamp>
+		</alter>
+		<properties>
+			<parameter name="design.owner" value="modelo1" />
+			<parameter name="object.existsinrepository" value="true" />
+		</properties>
+		<engineering should="true" />
+		<des_obj_version version="1.0" />
+		<documents />
+		<parties />
+		<changerequests />
+		<measurements />
+	</object>
+</metadatadoc>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="424771CF-F8BC-E428-8E7D-FBC465F43BD4" containerWithKeyObject="552E732D-00BE-E380-A0EA-E58AD7FE05E6" localFKIndex="AD6F06F4-78A2-E934-8354-CA83AB0F6386" name="Cidades_Estados_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 15:59:23 UTC</createdTime>
+<ownerDesignName>Agencia_de_Turismo</ownerDesignName>
+<referredTableLongName>Estados</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5642CFCE-BD79-7846-5611-9F0EE4514C02</referredTableID>
+<keyObject>FCA448FB-4189-19E4-AFC4-A6A3FF7065E0</keyObject>
+<referredKeyID>FCA448FB-4189-19E4-AFC4-A6A3FF7065E0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDEstado</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="COMPUTADORES" directorySegmentName="seg_0" id="1FB2D6E5-D351-056B-B79B-FC6770F834D8">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>35D58CE6-C0F3-9E10-03CC-909CD99398E3</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>20ACE87C-AFC7-9099-0C0F-33909119C2D7</segment>
+<tableSpace>98977902-9EBE-1B0E-8A27-D5CA2996DB9C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="IDMEMORIA" id="002312A1-12AC-5DA4-E36E-BAEB0D866E39">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAPACIDADERAM" id="37FBFDFB-3B30-894E-884E-FCC04D69EA18">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDFABRICANTE" id="46EC5395-2FAA-0721-43B6-688F38CE789B">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRICAOCOMPUTADOR" id="55626EE2-2A99-322D-DE1F-02A5ADC3B9E9">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAPACIDADEHD" id="664BB34B-778E-1CC4-F8FF-1BE4BD93CFF8">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDDISCORIGIDO" id="727226A9-0CE9-C958-3E12-7873F5FEDEB4">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDCOMPUTADOR" id="89632848-EE26-B97F-2E91-A78F7F99F932">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDMONITOR" id="BC6466EF-63F2-60EA-A899-871BDF3CCFF8">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="COMPUTADORES_PK" id="A996C9B9-A058-6810-B5C6-D6194A218365">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>35D58CE6-C0F3-9E10-03CC-909CD99398E3</schemaObject>
+<segment>0A35B269-4AFE-A412-9ED4-EE0F8C961284</segment>
+<tableSpace>98977902-9EBE-1B0E-8A27-D5CA2996DB9C</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="COMPUTADORES_DISCORIGIDO_FK" id="5D6FD5AF-65FE-6F07-5225-44629B49A396">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="COMPUTADORES_MEMORIAS_FK" id="A4A28F12-457B-509C-C02F-B8BB14FAAB83">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="COMPUTADORES_FABRICANTES_FK" id="B10FFADE-3FAA-CD23-89CA-33343504E160">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="COMPUTADORES_MONITOR_FK" id="B4B02F45-0F66-8DF7-6A07-D0DAEB91BC6C">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="COMPUTADORES_PK" id="96B60F70-6783-BD6A-CB37-BA63BFAEB794">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<segment>0A35B269-4AFE-A412-9ED4-EE0F8C961284</segment>
+<tableSpace>98977902-9EBE-1B0E-8A27-D5CA2996DB9C</tableSpace>
+<existingIndex>A996C9B9-A058-6810-B5C6-D6194A218365</existingIndex>
+<indexSegment>0A35B269-4AFE-A412-9ED4-EE0F8C961284</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev10g>

@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B768B2BD-6E4D-B954-3111-63B2CE2A3296" name="Turmas">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 17:59:30 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<abbreviation>tur</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDTurma" id="6CC5A0F0-1A8F-C9F1-0C95-CED152E30F71">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:00:10 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NumeroAlunos" id="6B438CD8-88B7-C92A-75CD-04EE763BA332">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:01:17 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HorarioAula" id="120A56B1-5F25-C48C-CEA2-7C84F9A2F499">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:02:47 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DuracaoAula" id="B4E9A34E-189B-802D-B620-816B8CE3C25A">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:08:07 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataInicial" id="E165812E-B244-83F8-4337-BFBADF844F36">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:08:59 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataFinal" id="C91648B1-7EA9-57B2-2028-235D7E89F30C">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:08:59 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDInstrutor" id="553FF3C7-FD8B-6656-C3F6-4ACD28583A03">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:29:30 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6BEFE6A4-B5F2-015E-2B65-BE7B5DD22D5D" referredColumn="9ABB7BC6-6888-D296-CEED-B2A396AC1ACF"/>
+</associations>
+</Column>
+<Column name="IDAtividade" id="B67092E7-816A-96D7-5C42-4B2ACC85A292">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 19:00:00 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02C5D675-3AAF-99A3-631B-316BB3E0516B" referredColumn="319AEC6A-5E0B-9569-A8BD-DEF2B40895AD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A250F954-58A6-DD3F-7748-0EEADD1B1EF2" name="Turmas_PK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:00:10 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CC5A0F0-1A8F-C9F1-0C95-CED152E30F71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB54EFF5-9A99-8E59-158D-0580C550D240" name="Turmas_Instrutores_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:29:30 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="553FF3C7-FD8B-6656-C3F6-4ACD28583A03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A568FA18-34D2-C58D-9D13-6AC6BA0263E5" name="Turmas_Atividades_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 19:00:00 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B67092E7-816A-96D7-5C42-4B2ACC85A292"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

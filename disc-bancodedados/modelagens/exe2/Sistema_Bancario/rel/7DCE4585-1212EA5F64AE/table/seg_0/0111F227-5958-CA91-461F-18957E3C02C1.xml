@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0111F227-5958-CA91-461F-18957E3C02C1" name="Contas">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:26:33 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<abbreviation>con</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDConta" id="57CD4D00-A78C-1133-5202-26A0099FB563">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:27:50 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Saldo" id="521F8AFE-B9C4-DB59-8FCF-EEA545C0B609">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:27:50 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDCliente" id="7667DC32-CDA5-3955-D025-70E587ED5A5D">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:32:11 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59CE9014-22D3-C795-2A30-FC0C376E24AF" referredColumn="9CDA8515-232E-3161-7061-40628722BDE6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F5BF2990-5F6E-B738-FCFB-8772ABEB5E86" name="Contas_PK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:27:50 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57CD4D00-A78C-1133-5202-26A0099FB563"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4F49624-31F8-562E-8563-5DE75049334C" name="Contas_Clientes_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:32:11 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7667DC32-CDA5-3955-D025-70E587ED5A5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="589B1ACA-6B41-7C6B-2515-AB24FAB33C80" schemaObject="0EA7F6AB-A288-39BE-14A4-9FC0B6E3CB15" name="VEICULOS">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>EXERCICIOS3</sourceObjSchema>
+<sourceObjName>VEICULOS</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDVEICULO" id="0BA9FAEE-0370-D800-E872-CC204AE4FAE2">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>VEICULOS</sourceObjSchema>
+<sourceObjName>IDVEICULO</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDCOR" id="18FD43DF-3C77-D7C3-0260-7130D3CE2086">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>VEICULOS</sourceObjSchema>
+<sourceObjName>IDCOR</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ABF68BD1-EBAE-9EB0-9A53-FD7AA9F897DF" referredColumn="1C5E3BF1-8DA4-2BD1-40CF-1C82A5654CC1"/>
+</associations>
+</Column>
+<Column name="IDFABRICANTE" id="241B55C6-5210-ED07-2EC3-584F8B74B90F">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>VEICULOS</sourceObjSchema>
+<sourceObjName>IDFABRICANTE</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD39277E-EA67-27CC-1A1D-3EA97AA1F6B6" referredColumn="39D013A6-7AA3-D4EA-C49D-A6F9CD923044"/>
+</associations>
+</Column>
+<Column name="ANO" id="1A4D2DF3-0083-A603-E728-96B0056CF8D1">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>VEICULOS</sourceObjSchema>
+<sourceObjName>ANO</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODELO" id="566ACF2B-3779-EEBB-4416-D5765CEA3D5F">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>VEICULOS</sourceObjSchema>
+<sourceObjName>MODELO</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POTENCIAHP" id="7F021E83-2927-2BD8-AC9E-484B5A68EDC9">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>VEICULOS</sourceObjSchema>
+<sourceObjName>POTENCIAHP</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR" id="360761D5-3D00-B7BB-C056-E9D05AE87A86">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>VEICULOS</sourceObjSchema>
+<sourceObjName>VALOR</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C45CA3B3-83D4-02E0-4650-FF6EDBD9F809" name="VEICULOS_PK">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>EXERCICIOS3</sourceObjSchema>
+<sourceObjName>VEICULOS_PK</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BA9FAEE-0370-D800-E872-CC204AE4FAE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="082973F3-3EFA-F415-52AD-20D27904E300" schemaObject="0EA7F6AB-A288-39BE-14A4-9FC0B6E3CB15" name="VEICULOS_PK">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>EXERCICIOS3</sourceObjSchema>
+<sourceObjName>VEICULOS_PK</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BA9FAEE-0370-D800-E872-CC204AE4FAE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58FD6F5A-9AF1-9CBE-D2FA-79494B1E530A" name="VEICULOS_CORES_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18FD43DF-3C77-D7C3-0260-7130D3CE2086"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A2DF0AC-92A6-9B64-D72E-078148605E43" name="VEICULOS_FABRICANTES_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="241B55C6-5210-ED07-2EC3-584F8B74B90F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

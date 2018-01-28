@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="11095FC9-473F-4645-61DA-BDD14015B75F" name="Limpeza">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:47:56 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<abbreviation>lim</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDLimpeza" id="B35095E2-77C3-CEDC-990A-05FFD27D36FC">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 15:09:14 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NomeLimpeza" id="23DF61DF-6ED1-F1DF-338D-0A44193B94EA">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 15:09:14 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sexo" id="2C4FE257-9916-7D96-4052-54972309B38D">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 15:09:14 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataAniversario" id="9D269301-0CB4-7193-5F08-4B253FB05A1E">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 15:09:14 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Salario" id="C6A3A338-2297-8C78-339D-29096369617C">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 15:09:14 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JornadaTrabalho" id="DA36D322-6880-2AB8-1E56-3CDB20DA70C6">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 15:09:14 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cargo" id="7D0E3A3B-69FB-8EDB-A10D-60DA7B38A72F">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 15:09:14 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDDepartamento" id="0606F472-A769-36F1-DFEE-EF217607AE58">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 15:16:08 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D7D4EDA-7C4D-C381-7DCA-8FCEAB7E9CCC" referredColumn="C428F993-DE24-E46F-9E30-0A652B26B8FB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BA332990-08A4-BB7D-7278-9660E8EC6EA0" name="Limpeza_PK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 15:09:14 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B35095E2-77C3-CEDC-990A-05FFD27D36FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B8CDD4D-2B14-806D-C066-E07540FA45BC" name="Limpeza_Departamentos_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 15:16:08 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0606F472-A769-36F1-DFEE-EF217607AE58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

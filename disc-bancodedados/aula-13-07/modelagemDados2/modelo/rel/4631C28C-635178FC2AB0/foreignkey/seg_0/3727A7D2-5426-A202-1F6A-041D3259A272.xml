@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3727A7D2-5426-A202-1F6A-041D3259A272" containerWithKeyObject="4FD04760-1CA7-B5EB-91A8-0649444E4412" localFKIndex="78F3009D-54C1-9953-94EC-534590BA3FDE" name="MONITOR_FABRICANTES_FK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>EXERCICIOS2</sourceObjSchema>
+<sourceObjName>MONITOR_FABRICANTES_FK</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>EXERCICIOS2.FABRICANTES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A8B20E17-EB2E-F427-AC3F-FCDE3F3639B3</referredTableID>
+<keyObject>22EA7997-70BB-A386-5FDB-D46F3E87FC42</keyObject>
+<referredKeyID>22EA7997-70BB-A386-5FDB-D46F3E87FC42</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDFABRICANTE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

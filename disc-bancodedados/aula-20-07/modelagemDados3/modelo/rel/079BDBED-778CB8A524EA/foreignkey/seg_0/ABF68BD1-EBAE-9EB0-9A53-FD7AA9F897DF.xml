@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ABF68BD1-EBAE-9EB0-9A53-FD7AA9F897DF" containerWithKeyObject="589B1ACA-6B41-7C6B-2515-AB24FAB33C80" localFKIndex="58FD6F5A-9AF1-9CBE-D2FA-79494B1E530A" name="VEICULOS_CORES_FK">
+<sourceConnName>aula-20-07</sourceConnName>
+<sourceObjSchema>EXERCICIOS3</sourceObjSchema>
+<sourceObjName>VEICULOS_CORES_FK</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-21 06:44:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>EXERCICIOS3.CORES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DD885114-660A-6DC8-32F8-28AA107B3427</referredTableID>
+<keyObject>CC044D1A-FFA1-E75D-2041-F5856A824E6C</keyObject>
+<referredKeyID>CC044D1A-FFA1-E75D-2041-F5856A824E6C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDCOR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1043B94F-FBF3-4D3E-AF50-949DC91F8744" name="Alunos">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-12 19:20:04 UTC</createdTime>
+<ownerDesignName>Controle_Academico</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<abbreviation>alu</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numMatricula" id="23953726-5022-A0F7-662C-34552D125308">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-12 19:20:53 UTC</createdTime>
+<ownerDesignName>Controle_Academico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeAluno" id="A4B869A4-701F-7432-BE14-A06E01AE9D90">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-12 19:23:43 UTC</createdTime>
+<ownerDesignName>Controle_Academico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CPF" id="6CB9C7E0-8BEC-A3BC-1A5A-47E334B9B5EC">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-12 19:24:02 UTC</createdTime>
+<ownerDesignName>Controle_Academico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sexo" id="8B2E7B87-01C5-EFA2-2328-AF31A1E4BB3E">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-12 19:24:17 UTC</createdTime>
+<ownerDesignName>Controle_Academico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataNascimento" id="6C922E61-920A-5CC0-C2BD-33F8F0265014">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 13:54:14 UTC</createdTime>
+<ownerDesignName>Controle_Academico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92BB1F8A-B74E-3A10-B67C-AC7297D8E0F8" name="Alunos_PK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-12 19:20:53 UTC</createdTime>
+<ownerDesignName>Controle_Academico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23953726-5022-A0F7-662C-34552D125308"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

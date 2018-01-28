@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC4DA6C4-17B8-D0A8-8946-255C5B71CDA9" schemaObject="35D58CE6-C0F3-9E10-03CC-909CD99398E3" name="MEMORIAS">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>EXERCICIOS2</sourceObjSchema>
+<sourceObjName>MEMORIAS</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDMEMORIA" id="0DF4CF37-9BDF-65D6-6FC8-EFF6CF9CFFBE">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MEMORIAS</sourceObjSchema>
+<sourceObjName>IDMEMORIA</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDFABRICANTE" id="A37AA20A-059A-6A24-D52C-19841891BBB4">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MEMORIAS</sourceObjSchema>
+<sourceObjName>IDFABRICANTE</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63F4D949-38BD-133E-3266-93098972EAEC" referredColumn="1AEF824A-1DFC-FE11-D877-4AE3B3F2D91A"/>
+</associations>
+</Column>
+<Column name="DESCRICAOMEMORIA" id="2CA8F447-854D-1020-573D-098A5F1B291F">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MEMORIAS</sourceObjSchema>
+<sourceObjName>DESCRICAOMEMORIA</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FDDDBB49-5D28-2FDE-EC5F-422BBFDA4047" name="MEMORIAS_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>EXERCICIOS2</sourceObjSchema>
+<sourceObjName>MEMORIAS_PK</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DF4CF37-9BDF-65D6-6FC8-EFF6CF9CFFBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="622EDC57-F7E6-6211-2452-588F9EDC12AD" schemaObject="35D58CE6-C0F3-9E10-03CC-909CD99398E3" name="MEMORIAS_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>EXERCICIOS2</sourceObjSchema>
+<sourceObjName>MEMORIAS_PK</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DF4CF37-9BDF-65D6-6FC8-EFF6CF9CFFBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63D63F88-CE31-40A6-5AAD-83077D7282A7" name="MEMORIAS_FABRICANTES_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A37AA20A-059A-6A24-D52C-19841891BBB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

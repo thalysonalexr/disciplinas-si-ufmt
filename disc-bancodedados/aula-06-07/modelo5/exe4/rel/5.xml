@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<design version="2.0" id="8E3A1A1D-9DB2-5341-62B8-07BB23572C30" defaultRDBMSSite="D9582E4E-79E2-319F-387A-2ED963CB9D32">
+	<ref>
+		<objectid role="contains" type="Table" oid="81C88718-9B1A-C0ED-0384-39C4E5F75EED" marked_generate="true" />
+		<objectid role="contains" type="Table" oid="FEDDC435-152A-94FF-FDD9-13A02A0E49D7" marked_generate="true" />
+		<objectid role="contains" type="Table" oid="4027B5D9-2E14-533C-76BD-8D54EEDD8666" marked_generate="true" />
+		<objectid role="contains" type="Table" oid="CF47CC74-A3D5-69FD-843E-A3C1E67233E7" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="167EF28E-7EFE-9E7B-282A-86C1AE48E3E9" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="0D3132AA-832C-8827-79BD-FDD4BE49A533" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="BE96F26D-5BD4-A1CB-CC73-656C1E66E1C1" marked_generate="true" />
+	</ref>
+	<type_substitutions />
+	<marked_generate_for_indexes>
+		<objectid oid="882879B5-4320-3E48-3446-3820AFEE62A6" marked_generate="true" />
+		<objectid oid="BC24BB67-9847-6C65-B502-BD44FB8B2CB6" marked_generate="true" />
+		<objectid oid="FB96BAC4-6726-1F35-A423-A20B06B69229" marked_generate="true" />
+		<objectid oid="7BC98E84-EF50-CD2C-018C-33DDBD1B534E" marked_generate="true" />
+		<objectid oid="AAD87718-4409-79E6-5C88-B4736566B996" marked_generate="true" />
+		<objectid oid="280629A5-2BD7-B850-FDBA-DCCFF79A5745" marked_generate="true" />
+		<objectid oid="4EAC6B96-51F4-8797-FD37-1E195A5A95A4" marked_generate="true" />
+	</marked_generate_for_indexes>
+	<ext_sub_views_collection>
+		<sub_view subview_name="Relational_1" id="D0097ADB-E6B2-75C0-56E2-E502DA8ED688" sv_type="main_view" visible="true" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" />
+	</ext_sub_views_collection>
+	<documents />
+	<parties />
+	<naming_options>
+		<naming_option class_name="oracle.dbtools.crest.model.design.relational.Table" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
+		<naming_option class_name="oracle.dbtools.crest.model.design.relational.Column" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
+		<naming_option class_name="oracle.dbtools.crest.model.design.relational.TableView" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
+		<naming_option class_name="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
+		<naming_option class_name="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
+		<naming_option class_name="oracle.dbtools.crest.model.design.relational.Index" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
+	</naming_options>
+</design>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="914301BA-BC87-5EF1-268A-748343B37C8F" containerWithKeyObject="DA7D5C28-DDEF-0B4D-8A0C-2060107DD7FC" localFKIndex="BA4F7681-9A2E-5261-1B60-E33FB4854038" name="Restaurantes_Cidades_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 19:31:44 UTC</createdTime>
+<ownerDesignName>Agencia_de_Turismo</ownerDesignName>
+<referredTableLongName>Cidades</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>552E732D-00BE-E380-A0EA-E58AD7FE05E6</referredTableID>
+<keyObject>F1B26039-44AE-648C-4C99-B2C79A5EC2FE</keyObject>
+<referredKeyID>F1B26039-44AE-648C-4C99-B2C79A5EC2FE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDCidade</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

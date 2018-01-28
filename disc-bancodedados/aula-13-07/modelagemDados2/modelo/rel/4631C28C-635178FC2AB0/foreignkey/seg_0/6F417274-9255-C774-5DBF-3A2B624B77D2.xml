@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6F417274-9255-C774-5DBF-3A2B624B77D2" containerWithKeyObject="1FB2D6E5-D351-056B-B79B-FC6770F834D8" localFKIndex="5D6FD5AF-65FE-6F07-5225-44629B49A396" name="COMPUTADORES_DISCORIGIDO_FK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>EXERCICIOS2</sourceObjSchema>
+<sourceObjName>COMPUTADORES_DISCORIGIDO_FK</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>EXERCICIOS2.DISCORIGIDO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1E9B6FEA-2655-04E7-A962-77F8249C8A89</referredTableID>
+<keyObject>BE9F3EF0-BEB2-FC35-B08E-F94A37F363B8</keyObject>
+<referredKeyID>BE9F3EF0-BEB2-FC35-B08E-F94A37F363B8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDDISCORIGIDO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

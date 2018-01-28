@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="68770292-CC3D-0998-0600-CC4AE9EABA92" containerWithKeyObject="88A518C5-C7EA-57A3-4A81-569D8BF1A82E" localFKIndex="95E252C2-ACD0-9289-D3AD-6CFDE82492FB" name="Agencias_Cidades_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:11:42 UTC</createdTime>
+<ownerDesignName>Sistema_Bancario</ownerDesignName>
+<referredTableLongName>Cidades</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>04E0A0CE-EB0D-9405-37D9-21452EEF126C</referredTableID>
+<keyObject>7BBBCE73-10DE-07B9-968E-97C2C04AF7B3</keyObject>
+<referredKeyID>7BBBCE73-10DE-07B9-968E-97C2C04AF7B3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDCidade</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

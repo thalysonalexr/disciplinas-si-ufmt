@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="296F72C1-B02B-7843-E7FB-2D1E3CC5F380" containerWithKeyObject="EAC5DBFC-C212-5003-C5BF-034F3E96C119" localFKIndex="B5AB7254-1FAC-2D30-192E-0E7E566F6BCC" name="Status_Disciplinas_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 13:34:58 UTC</createdTime>
+<ownerDesignName>Controle_Academico</ownerDesignName>
+<referredTableLongName>Disciplinas</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1F25882E-7D58-33BC-F3FD-20D0E82F405B</referredTableID>
+<keyObject>90F7EF1D-FCC4-0D98-7B36-AF6675CBB0BF</keyObject>
+<referredKeyID>90F7EF1D-FCC4-0D98-7B36-AF6675CBB0BF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDDisciplina</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

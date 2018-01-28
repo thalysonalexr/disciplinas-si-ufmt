@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<design version="2.0" id="84AEBD60-3FFA-BE1A-B532-A97934BAF5B4" defaultRDBMSSite="D9582E4E-79E2-319F-387A-2ED963CB9D32">
+	<ref>
+		<objectid role="contains" type="Table" oid="8F3D52AB-2D24-9CAB-A455-4E149D6C5FBE" marked_generate="true" />
+		<objectid role="contains" type="Table" oid="F031333C-65AB-08EA-8AE6-3D5EB097A31A" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="1559DAFE-F0C8-1150-F301-25F87C8EDF13" marked_generate="true" />
+	</ref>
+	<type_substitutions />
+	<marked_generate_for_indexes>
+		<objectid oid="A8A34115-AAE2-0411-9C2B-D08EE39C3AC3" marked_generate="true" />
+		<objectid oid="78C223A8-A9ED-4960-8D6C-496EE2F34A2F" marked_generate="true" />
+		<objectid oid="D7188B5A-C0C1-EB4E-0E2D-B0BD21251CD2" marked_generate="true" />
+	</marked_generate_for_indexes>
+	<ext_sub_views_collection>
+		<sub_view subview_name="Relational_1" id="EF9ECC85-12E4-A2D2-9F50-8F109DF975EF" sv_type="main_view" visible="true" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" />
+	</ext_sub_views_collection>
+	<documents />
+	<parties />
+	<naming_options>
+		<naming_option class_name="oracle.dbtools.crest.model.design.relational.Table" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
+		<naming_option class_name="oracle.dbtools.crest.model.design.relational.Column" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
+		<naming_option class_name="oracle.dbtools.crest.model.design.relational.TableView" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
+		<naming_option class_name="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
+		<naming_option class_name="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
+		<naming_option class_name="oracle.dbtools.crest.model.design.relational.Index" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
+	</naming_options>
+</design>

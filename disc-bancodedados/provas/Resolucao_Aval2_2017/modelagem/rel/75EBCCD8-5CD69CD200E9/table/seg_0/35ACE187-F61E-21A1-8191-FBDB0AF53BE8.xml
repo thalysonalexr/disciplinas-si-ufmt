@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35ACE187-F61E-21A1-8191-FBDB0AF53BE8" name="Instrutores">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:09:19 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<abbreviation>ins</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDInstrutor" id="9ABB7BC6-6888-D296-CEED-B2A396AC1ACF">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:10:14 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RG" id="1E75CEC6-5C68-CD02-FA53-5A2CA190AA58">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:11:12 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="C7C750B2-5108-157A-B6B4-808B323E0E15">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:11:12 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataNascimento" id="11CC6622-FDC8-03E3-F0E5-43823F1BDE87">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:11:25 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Titulacao" id="E4444030-92B0-FDF3-7404-07EFED1CAE01">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:16:39 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDEndereco" id="B9998B61-245E-0AF7-861D-6D09E05ADC03">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:39:09 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9C9DBD07-A059-01D2-5FD1-36C3395F0939" referredColumn="7871AFE0-794E-C9A6-5C02-56D67C455EBF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="848C5514-1EDC-83AF-0EE4-01C7BCB2F61D" name="Instrutores_PK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:10:14 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9ABB7BC6-6888-D296-CEED-B2A396AC1ACF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0260E8F0-674C-C060-4F12-1DDB4034A92C" name="Instrutores_Enderecos_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-08-02 18:39:09 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9998B61-245E-0AF7-861D-6D09E05ADC03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

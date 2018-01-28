@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="72682630-21C4-5FA9-CE11-A41B1510174A" name="Pesquisadores">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:47:34 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<abbreviation>pes</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDPesquisador" id="616CE917-5872-B544-A5AF-CE1965604585">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:50:13 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NomePesquisador" id="0A71598C-7068-B4FC-4DFF-D059CE0A9764">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:50:13 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sexo" id="BEC4D6D5-FCC9-3D33-D321-844B93D88948">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:50:13 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Salario" id="C8085777-FBAB-2F79-2DDC-8598ADC327DA">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:57:10 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataAniversario" id="0A021C0B-A2BF-A2B2-57B3-EC69CCB89F42">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:51:09 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AreaAtuacao" id="923B5419-518B-14EF-625C-9D2EF359C34F">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:51:09 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Endereco" id="41351810-9497-FC90-5E7D-8159294210B1">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:53:16 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDDepartamento" id="B14DC549-0F5C-7AD4-28C4-6A2B2DB3BCE9">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 15:15:57 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF80BD1B-048F-2E81-8983-94E5569C1061" referredColumn="C428F993-DE24-E46F-9E30-0A652B26B8FB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="19DCD70C-75C4-8BCA-1A6E-40E12476DCD3" name="Pesquisadores_PK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 14:50:13 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="616CE917-5872-B544-A5AF-CE1965604585"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F21AAE76-66F4-6271-D7A4-DEFA1612084C" name="Pesquisadores_Departamentos_FK">
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-13 15:15:57 UTC</createdTime>
+<ownerDesignName>Gerenciamento_de_Projetos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B14DC549-0F5C-7AD4-28C4-6A2B2DB3BCE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

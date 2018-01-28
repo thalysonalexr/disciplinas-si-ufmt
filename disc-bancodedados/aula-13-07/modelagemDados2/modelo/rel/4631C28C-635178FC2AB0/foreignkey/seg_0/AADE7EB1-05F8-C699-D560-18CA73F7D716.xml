@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AADE7EB1-05F8-C699-D560-18CA73F7D716" containerWithKeyObject="DA0A2ED4-D97B-20B3-F236-BF720F100D86" localFKIndex="1BE9E79A-1A7C-2F74-F77D-725B2D9BC4D2" name="SOFT_SOFTWARES_FK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>EXERCICIOS2</sourceObjSchema>
+<sourceObjName>SOFT_SOFTWARES_FK</sourceObjName>
+<createdBy>thamo</createdBy>
+<createdTime>2017-07-14 19:26:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>EXERCICIOS2.SOFTWARES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7CA5E755-2BF4-33F8-5457-6D569ED4B11A</referredTableID>
+<keyObject>49497DE6-5B09-4C47-22DD-5AF06A33B344</keyObject>
+<referredKeyID>49497DE6-5B09-4C47-22DD-5AF06A33B344</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDSOFTWARE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
